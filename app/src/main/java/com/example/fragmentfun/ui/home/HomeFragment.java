@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
@@ -14,6 +15,7 @@ import com.example.fragmentfun.R;
 
 public class HomeFragment extends Fragment {
 
+    public Button b;
     private HomeViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -29,5 +31,15 @@ public class HomeFragment extends Fragment {
             }
         });
         return root;
+
+        b = findViewById(R.id.test_button);
+        b.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                b.setEnabled(false);
+                b.setVisibility(View.GONE);
+            }
+        });
+
     }
 }
