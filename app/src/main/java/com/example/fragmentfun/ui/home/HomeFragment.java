@@ -16,6 +16,7 @@ import com.example.fragmentfun.R;
 public class HomeFragment extends Fragment {
 
     public Button b;
+    TextView tv;
     private HomeViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -30,16 +31,34 @@ public class HomeFragment extends Fragment {
                 textView.setText(s);
             }
         });
-        return root;
-
-        b = findViewById(R.id.test_button);
-        b.setOnClickListener(new View.OnClickListener() {
+        b = root.findViewById(R.id.test_button);
+        tv = root.findViewById(R.id.test_text);
+        b.setOnClickListener(new View.OnClickListener()
+        {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v)
+            {
+                //tv.setText("goodbye");
                 b.setEnabled(false);
                 b.setVisibility(View.GONE);
             }
         });
-
+        return root;
     }
+
+//    @Override
+//    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle viewInstanceState ){
+//        View view = inflater.inflate(R.layout.fragment_home,
+//                container, false);
+//        Button button = view.findViewById(R.id.test_button);
+//        button.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v)
+//            {
+//                b.setEnabled(false);
+//                b.setVisibility(View.GONE);
+//            }
+//        });
+//        return view;
+//    }
 }
