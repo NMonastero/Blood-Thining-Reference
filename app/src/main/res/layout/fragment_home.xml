@@ -6,15 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <TextView
-        android:id="@+id/text_home"
+    <Button
+        android:id="@+id/back"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="0dp"
         android:layout_marginEnd="8dp"
         android:textAlignment="center"
         android:textSize="20sp"
+        android:text="Back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -76,7 +77,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
-        android:id="@+id/test_text"
+        android:id="@+id/t1p0"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="Choose a Warfarin resource you would like to review"
@@ -84,4 +85,13 @@
         android:textSize="25sp"
         tools:layout_editor_absoluteX="-8dp"
         tools:layout_editor_absoluteY="90dp" />
+
+    <TextView
+        android:id="@+id/t1p1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Review the INR target and duration of Warfarin therapy according to medical indication grouped in these categories:"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="228dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

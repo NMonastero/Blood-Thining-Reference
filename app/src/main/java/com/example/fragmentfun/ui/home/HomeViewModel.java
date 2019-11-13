@@ -19,7 +19,7 @@ public class HomeViewModel extends ViewModel {
 
     public HomeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        //mText.setValue("This is home fragment");
     }
 
 //    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle viewInstanceState ){
