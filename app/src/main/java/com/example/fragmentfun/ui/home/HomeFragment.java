@@ -15,8 +15,9 @@ import com.example.fragmentfun.R;
 
 public class HomeFragment extends Fragment {
 
-    public Button b;
+    public Button b1p0, b2p0, b3p0, b4p0;
     TextView tv;
+    int page = 0;
     private HomeViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -31,34 +32,37 @@ public class HomeFragment extends Fragment {
                 textView.setText(s);
             }
         });
-        b = root.findViewById(R.id.test_button);
+        b1p0 = root.findViewById(R.id.b1p0);
+        b2p0 = root.findViewById(R.id.b2p0);
+        b3p0 = root.findViewById(R.id.b3p0);
+        b4p0 = root.findViewById(R.id.b4p0);
         tv = root.findViewById(R.id.test_text);
-        b.setOnClickListener(new View.OnClickListener()
+        changePage(0);
+        b1p0.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                //tv.setText("goodbye");
-                b.setEnabled(false);
-                b.setVisibility(View.GONE);
+                changePage(1);
             }
         });
         return root;
     }
 
-//    @Override
-//    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle viewInstanceState ){
-//        View view = inflater.inflate(R.layout.fragment_home,
-//                container, false);
-//        Button button = view.findViewById(R.id.test_button);
-//        button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v)
-//            {
-//                b.setEnabled(false);
-//                b.setVisibility(View.GONE);
-//            }
-//        });
-//        return view;
-//    }
+    public void changePage(int i){
+        if(i == 0){
+            //disable everything we don't want initially
+        }
+        if(i == 1){
+            b1p0.setEnabled(false);
+            b1p0.setVisibility(View.GONE);
+            b2p0.setEnabled(false);
+            b2p0.setVisibility(View.GONE);
+            b3p0.setEnabled(false);
+            b3p0.setVisibility(View.GONE);
+            b4p0.setEnabled(false);
+            b4p0.setVisibility(View.GONE);
+        }
+    }
+
 }
