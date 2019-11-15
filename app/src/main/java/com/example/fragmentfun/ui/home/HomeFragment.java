@@ -13,11 +13,14 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import com.example.fragmentfun.R;
 
+import java.util.Stack;
+
 public class HomeFragment extends Fragment {
 
-    public Button back, b1p0, b2p0, b3p0, b4p0;
-    TextView t1p0, t1p1;
+    public Button back, b1p0, b2p0, b3p0, b4p0, b1p1, b2p1, b3p1, b4p1, b5p1;
+    TextView t1p0, t1p1, t2p1;
     int page = 0;
+    Stack<Integer> pageLast = new Stack<Integer>();
     private HomeViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -33,19 +36,27 @@ public class HomeFragment extends Fragment {
 //            }
 //        });
         back = root.findViewById(R.id.back);
+        //page 0
         b1p0 = root.findViewById(R.id.b1p0);
         b2p0 = root.findViewById(R.id.b2p0);
         b3p0 = root.findViewById(R.id.b3p0);
         b4p0 = root.findViewById(R.id.b4p0);
         t1p0 = root.findViewById(R.id.t1p0);
+        //page 1
         t1p1 = root.findViewById(R.id.t1p1);
+        b1p1 = root.findViewById(R.id.b1p1);
+        b2p1 = root.findViewById(R.id.b2p1);
+        b3p1 = root.findViewById(R.id.b3p1);
+        b4p1 = root.findViewById(R.id.b4p1);
+        b5p1 = root.findViewById(R.id.b5p1);
+        t2p1 = root.findViewById(R.id.t2p1);
         changePage(page);
         back.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                page--;
+                page = pageLast.pop();
                 changePage(page);
             }
         });
@@ -54,6 +65,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v)
             {
+                pageLast.push(page);
                 page = 1;
                 changePage(page);
             }
@@ -63,6 +75,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v)
             {
+                pageLast.push(page);
                 page = 2;
                 changePage(page);
             }
@@ -72,6 +85,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v)
             {
+                pageLast.push(page);
                 page = 3;
                 changePage(page);
             }
@@ -81,7 +95,58 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v)
             {
+                pageLast.push(page);
                 page = 4;
+                changePage(page);
+            }
+        });
+        b1p1.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                pageLast.push(page);
+                page = 5;
+                changePage(page);
+            }
+        });
+        b2p1.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                pageLast.push(page);
+                page = 6;
+                changePage(page);
+            }
+        });
+        b3p1.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                pageLast.push(page);
+                page = 7;
+                changePage(page);
+            }
+        });
+        b4p1.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                pageLast.push(page);
+                page = 8;
+                changePage(page);
+            }
+        });
+        b5p1.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                pageLast.push(page);
+                page = 9;
                 changePage(page);
             }
         });
@@ -113,6 +178,17 @@ public class HomeFragment extends Fragment {
 
             //page 1 enable
             t1p1.setVisibility(View.VISIBLE);
+            b1p1.setEnabled(true);
+            b1p1.setVisibility(View.VISIBLE);
+            b2p1.setEnabled(true);
+            b2p1.setVisibility(View.VISIBLE);
+            b3p1.setEnabled(true);
+            b3p1.setVisibility(View.VISIBLE);
+            b4p1.setEnabled(true);
+            b4p1.setVisibility(View.VISIBLE);
+            b5p1.setEnabled(true);
+            b5p1.setVisibility(View.VISIBLE);
+            t2p1.setVisibility(View.VISIBLE);
         }
         else if(i == 2){
             page0Dis();
@@ -123,6 +199,22 @@ public class HomeFragment extends Fragment {
         else if(i == 4){
             page0Dis();
         }
+        else if(i == 5){
+            page1Dis();
+        }
+        else if(i == 6) {
+            page1Dis();
+        }
+        else if(i == 7){
+            page1Dis();
+        }
+        else if(i == 8) {
+            page1Dis();
+        }
+        else if(i == 9){
+            page1Dis();
+        }
+
     }
 
     public void page0Dis(){
@@ -139,6 +231,17 @@ public class HomeFragment extends Fragment {
 
     public void page1Dis(){
         t1p1.setVisibility(View.GONE);
+        b1p1.setEnabled(false);
+        b1p1.setVisibility(View.GONE);
+        b2p1.setEnabled(false);
+        b2p1.setVisibility(View.GONE);
+        b3p1.setEnabled(false);
+        b3p1.setVisibility(View.GONE);
+        b4p1.setEnabled(false);
+        b4p1.setVisibility(View.GONE);
+        b5p1.setEnabled(false);
+        b5p1.setVisibility(View.GONE);
+        t2p1.setVisibility(View.GONE);
     }
 
 }
