@@ -10,7 +10,7 @@ public class DisclaimerViewModel extends ViewModel {
 
     public DisclaimerViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is disclaimer fragment");
+        //mText.setValue("This is disclaimer fragment");
     }
 
     public LiveData<String> getText() {

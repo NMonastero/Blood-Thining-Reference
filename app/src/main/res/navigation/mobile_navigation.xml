@@ -29,5 +29,4 @@
         android:label="@string/title_disclaimer"
         tools:layout="@layout/fragment_disclaimer" />
 
-    />
 </navigation>

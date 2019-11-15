@@ -4,4 +4,18 @@
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_disclaimer">Disclaimer</string>
+    <string name="disclaimer_text">Dear Colleague,\n\nThis tool provides decision-support information
+        to assist you in managing Warfarin. I was taught that Warfarin is the single most dangerous
+        medication in common use in all of medicine, and nothing in a dozen years of clinical practice
+        has changed my opinion. Yet, Warfarin has the power to prevent great numbers of very serious
+        events such as strokes pulmonary embolism. The stakes are high, so Warfarin care is serious work.
+        \n\nInformation is published literature (see references). The author of the app has tried to faithfully
+        present the guidance of others and not to substitute his own judgement.\n\nThis app is no substitute
+        for knowledge, training, and experience in anti-coagulation. The app is merely a quick reference
+        of reminders and updates on material you already know.\n\nAnd like any other general guide, these
+        resources suggest how you might manage Warfarin for the average patient. But, this guide cannot
+        tell you how to manage the single unique patient at hand right now. Be vigilant for over and under-use
+        of Warfarin. Be vigilant for other changes in medical status which affect suitability or response
+        to Warfarin therapy. Be vigilant for advances and changes in anticoagulation care. Individualize your
+        care. And most of all, do your own thinking.</string>
 </resources>
