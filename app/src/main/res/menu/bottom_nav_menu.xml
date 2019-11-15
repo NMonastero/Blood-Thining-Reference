@@ -7,9 +7,9 @@
         android:title="@string/title_home"/>
 
     <item
-        android:id="@+id/navigation_dashboard"
-        android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="@string/title_dashboard"/>
+        android:id="@+id/navigation_disclaimer"
+        android:icon="@drawable/ic_disclaimer_black_24dp"
+        android:title="@string/title_disclaimer"/>
 
     <item
         android:id="@+id/navigation_notifications"
@@ -17,8 +17,8 @@
         android:title="@string/title_notifications"/>
 
     <item
-        android:id="@+id/navigation_disclaimer"
-        android:icon="@drawable/ic_disclaimer_black_24dp"
-        android:title="@string/title_disclaimer"/>
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_dashboard"/>
 
 </menu>
