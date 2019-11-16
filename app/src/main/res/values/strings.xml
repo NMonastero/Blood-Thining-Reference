@@ -16,6 +16,13 @@
         resources suggest how you might manage Warfarin for the average patient. But, this guide cannot
         tell you how to manage the single unique patient at hand right now. Be vigilant for over and under-use
         of Warfarin. Be vigilant for other changes in medical status which affect suitability or response
-        to Warfarin therapy. Be vigilant for advances and changes in anticoagulation care. Individualize your
+        to Warfarin therapy. Be vigilant for advances and changes in anti-coagulation care. Individualize your
         care. And most of all, do your own thinking.</string>
+    <string name="DVTorPE"> Proximal CVT of leg provoked by surgery \n- target 2.0-3.0 \n- duration 3 months \n\nProximal DVT of leg provoked by
+        nonsurgical transient risk factor \n- target 2.0-3.0 \n- duration 3 months if high bleeding risk* \n- duration indefinitely if low-to-moderate
+    bleeding risk* \n\nDistal isolated DVT of leg without severe symptoms or risk factors for extension \n-serial imaging of deep veins to eval for
+    extension rather than coagulation \n- if extends, anti-coagulate as below \nDistal isolated DVT of leg with severe symptoms or risk factors for
+    extension \n- target 2.0-3.0 \n- duration 3 months \n- then evaluate for risk-benefit balance of indefinitely further anti-coagulation with
+    preference for cessation \nDistal isolated DVT of leg provoked by surgery or nonsurgical transient risk factor in whom anti-coagulation is elected
+        \n- target 2.0-3.0 \n- duration 3 months</string>
 </resources>
