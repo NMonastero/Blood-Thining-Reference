@@ -18,11 +18,234 @@
         of Warfarin. Be vigilant for other changes in medical status which affect suitability or response
         to Warfarin therapy. Be vigilant for advances and changes in anti-coagulation care. Individualize your
         care. And most of all, do your own thinking.</string>
-    <string name="DVTorPE"> Proximal CVT of leg provoked by surgery \n- target 2.0-3.0 \n- duration 3 months \n\nProximal DVT of leg provoked by
-        nonsurgical transient risk factor \n- target 2.0-3.0 \n- duration 3 months if high bleeding risk* \n- duration indefinitely if low-to-moderate
-    bleeding risk* \n\nDistal isolated DVT of leg without severe symptoms or risk factors for extension \n-serial imaging of deep veins to eval for
-    extension rather than coagulation \n- if extends, anti-coagulate as below \nDistal isolated DVT of leg with severe symptoms or risk factors for
-    extension \n- target 2.0-3.0 \n- duration 3 months \n- then evaluate for risk-benefit balance of indefinitely further anti-coagulation with
-    preference for cessation \nDistal isolated DVT of leg provoked by surgery or nonsurgical transient risk factor in whom anti-coagulation is elected
-        \n- target 2.0-3.0 \n- duration 3 months</string>
+    <string name="references_text">Ansell J., et. al., \'Pharmacology and Management of the Vitamin K Antagonists.
+        Antithrombotic and Thrombolytic Therapy: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines
+        (8th Edition)\'. Chest, vol. 133, no. 6; supplement pg. 160S-198S, June 2008. Available at www.chestjournal.org\n
+        Ebell, M, \'Point of Care Guides: Evidence-Based Adjustment of Warfarin (Coumadin) Doses\'.
+        American Family Physician, vol. 71, no. 10, pg. 1979-1982, May 15, 2005. Available at www.aafp.org\n
+        Ebell, M, \'Point of Care Guides: Evidence-based Initiation of Warfarin (Coumadin)\'. American Family Physician,
+        vol. 71, no. 4, pg. 763-765, February 15, 2005. Available at www.aafp.org\n
+        Kearon C., et. al., \'Antithrombotic Therapy for Venous Thromboembolic Disease. Antithrombotic and Thrombolytic
+        Therapy: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines (8th Edition)\'. Chest,
+        vol. 133, no. 6; supplement pg. 454S-545S, June 2008. Available at www.chestjournal.org\n
+        Salem N., et. al., \'Valvular and Structural Heart Disease. Antithrombotic and Thrombolytic Therapy:
+        American College of Chest Physicians Evidence-Based Clinical Practice Guidelines (8th Edition)\'. Chest, vol.
+        133, no. 6; supplement pg. 593S-629S, June 2008.  Available at www.chestjournal.org\n
+        Singer D., et. al., \'Antithrombotic Therapy in Atrial Fibrillation. Antithrombotic and Thrombolytic Therapy:
+        American College of Chest Physicians Evidence-Based Clinical Practice Guidelines (8th Edition)\'. Chest, vol. 133, no. 6;
+        supplement pg. 546S-592S, June 2008.  Available at www.chestjournal.org</string>
+    <string name="about_protocol">ACCP 2012 guideline reports evidence of benefit from use of decision-support
+        tools to guide maintenance of Warfarin therapy, particularly for inexperienced prescribers.
+        But the guideline does not compare or endorse any particular dosage management schemes. Thus
+        this app continues with the same Warfarin adjustment scheme from the family medicine literature
+        with only slight modifications to accommodate the new recommendation about single mildly out-of-range INR results.\n
+        The other emphasis made by ACCP regarding approach to anticoagulation management is that it should be done in a
+        systematic and coordinated fashion, incorporating patient education, systematic INR testing, tracking, follow-up,
+        and good patient communication of results and dosing decisions. This includes, notably, the option of patient
+        self-testing and self-management for those select patients who demonstrate motivation and competency in self-management
+        tools and strategies.</string>
+    <string name="initiate">It is difficult to predict how much Warfarin a patient will ultimately need for daily or weekly dosing.
+        So the approach is to get dosing started, make initial adjustments, get the patient close enough to therapeutic so that
+        any coadministered heparin can be stopped, and transition from initiation to maintenance of Warfarin.\n
+        Several schemes have been reported in the literature aiming to achieve therapeutic INR level rapidly and safely.
+        They either start with 5 mg daily or 10 mg daily and then offer algorithms for dose adjustment after
+        a couple days of therapy onward. Looking at almost the identical literature set, the AFP 2005 review
+        concludes that both the 5 mg and 10 mg initiation schemes are reasonable, while the ACCP 2012 review
+        expresses preference for the 10 mg schemes. The AFP article offers the actual details of several
+        initiation schemes themselves so that you can implement the one you decide is appropriate for your patient.\n
+        If your humble writer and amateur programmer acquires the skill, I\'ll include the various initiation protocols
+        for ease of use in this app in the future.\n
+        The other issue ACCP 2012 addresses is the recent emergence of Warfarin initiation based on pharmacogenetic testing.
+        Their discussion of the evidence to date leads ACCP to recommend against routine use of pharmacogenetic
+        testing for guiding doses of Warfarin.</string>
+    <string name="alert">This app presents the Point-of-Care Guides on the use of Warfarin (Coumadin) from the
+        family medicine literature, updated for the 2008 and 2012 ACCP guidelines on antithrombotic therapy.
+        It contains guidance on indications, INR targets, treatment duration, initiation, and adjustment protocols.</string>
+    <string name="periop_mgmt">The management of Warfarin before, during, and after surgery depends greatly on
+        the type of surgery and the risk of a thromboembolic event were anticoagulation to be suspended temporarily.\n
+        For detailed guidance on this topic, please see our free app in the iTunes App Store, &quot;Preop Eval &apos;14&quot;.</string>
+    <string name="afib_flutter">Acute A-Fib/Flutter ≥ 48 hrs or unknown duration and cardioversion planned:
+        \n- target 2.0-3.0
+        \n- duration 3 wks before cardioversion
+        \n- duration pre-cardioversion can be truncated if high-quality TEE reassures against atrial thrombus
+        \n- duration 4+ wks after cardioversion
+        \n- whether to anticoagulate after 4 wks has no evidence to guide therapy. Many pts 1 year out from seemingly
+        successful cardioversion are back in A-fib.  Thus ACCP recommends individual risk assessment based on CHADS2
+        stroke risk, bleeding risk, and other pt specific factors for this decision\n
+        \nAcute A-Fib/Flutter known duration \u003C 48 hrs and cardioversion planned:
+        \n- IV Heparin or LMWH recommended at presentation if no contraindication present
+        \n- after successful cardioversion anti-coagulate (Warfarin, LMWH, newer agents) at least 4 weeks
+        \n- consider longterm anticoagulation after initial 4 weeks based upon individual pt risks as described
+        above for A-fib ≥ 48 hrs\n
+        \nChronic Atrial Fibrillation, Paroxysmal A-Fib, and A-Flutter:
+        \n- first do CHADS2 score for longterm risk of ischemic stroke:\n
+        \nC (CHF or mod-sev LV dysfxn, 1 pt),
+        \nH (hypertension, 1 pt),
+        \nA (age ≥ 75 yrs, 1 pt),
+        \nD (diabetes, 1 pt),
+        \nS (prior stroke, TIA, or systemic embolic event, 2 pts)\n
+        \nCHADS2 ≥ 2:
+        \n- rec Warfarin over antiplatelet therapy
+        \n- Aspirin 75-325 mg \u0026 Clopidogrel 75 mg for those unsuitable or choose not to take Warfarin (for reasons
+        other than major bleeding concerns)\n
+        \nCHADS2 = 1:
+        \n- rec Warfarin over no therapy
+        \n- Warfarin preferred over antiplatelet therapy
+        \n- Aspirin 75-325 mg \u0026 Clopidogrel 75 mg for those unsuitable or choose not to take Warfarin (for reasons
+        other than major bleeding concerns)\n
+        \nCHADS2 = 0:
+        \n- rec no therapy over any therapy
+        \n- for those who choose therapy, aspirin 75-325 mg preferred over Warfarin and over aspirin \u0026 clopidogrel
+        \n- target INR 2.0-3.0 for Warfarin use
+        \n- duration indefinitely\n
+        \nNote: In some atrial fibrillation patients, the risk of major bleeding may be as great or greater than the
+        risk of a thromboembolic event. In some cases, your knowledge of the patient may be sufficient to make this
+        judgment (i.e. frequent falls, inability to comply with careful use of medication). For a quantitative
+        consideration of risk of embolic event versus risk of major bleeding event, consult risk estimation tools
+        such as CHADS2 for risk of stroke from A-fib and OBRI for risk of major bleeding. There are several point-of-care
+        calculators to make these estimates, one that I use is Calculate by QxMD software.
+        Notably, the 2012 ACCP A-fib guideline endorses consideration of individual patient characteristics
+        like bleeding risk when considering whether to anticoagulate, while the 2012 ACCP Evidence-Based Mgmt
+        of Anticoagulant Therapy guideline cautions not to use bleeding risk tools as the sole criterion to
+        withhold anticoagulation.</string>
+    <string name="dvt_or_pe">Proximal DVT of leg provoked by surgery
+        \n- target 2.0-3.0
+        \n- duration 3 months\n
+        \nProximal DVT of leg provoked by nonsurgical transient risk factor
+        \n- target 2.0-3.0
+        \n- duration 3 months if high bleeding risk*
+        \n- duration indefinitely if low-to-moderate bleding risk*\n
+        \nDistal isolated DVT of leg without severe symptoms or risk factors for extension
+        \n- serial imaging of deep veins to eval for extension rather than anti-coagulation
+        \n- if extends, anticoagulate as below\n
+        \nDistal isolated DVT of leg with severe symptoms or risk factors for extension
+        \n- target 2.0-3.0
+        \n- duration 3 months
+        \n- then evaluate for risk-benefit balance of indefinitely further anticoagulation with preference for cessation\n
+        \nDistal isolated DVT of leg provoked by surgery or nonsurgical transient risk factor in whom anticoagulation is elected
+        \n- target 2.0-3.0
+        \n- duration 3 months\n
+        \nUnprovoked DVT of leg (including all proximal and those distal clots treated with anticoagulation)
+        \n- target 2.0-3.0
+        \n- duration 3 months
+        \n- then consider those at low-to-moderate bleeding risk* for indefinite further anticoagulation and those at high bleeding risk* for cessation\n
+        \nPatients with second unprovoked VTE (DVT or PE)
+        \n- target 2.0-3.0
+        \n- duration 3 months for those with high bleeding risk*
+        \n- duration indefinitely for those with low-to-moderate bleeding risk*\n
+        \nDVT and active cancer
+        \n- target 2.0-3.0
+        \n- duration indefinitely\n
+        \nPE provoked by surgery
+        \n- target 2.0-3.0
+        \n- duration 3 months\n
+        \nPE provoked by a nonsurgical transient risk factor
+        \n- target 2.0-3.0
+        \n- duration 3 months\n
+        \nPE unprovoked
+        \n- target 2.0-3.0
+        \n- duration 3 months
+        \n- then consider those at low-to-moderate bleeding risk* for indefinite further anticoagulation and those at high bleeding risk* for cessation\n
+        \nPE and active cancer
+        \n- target 2.0-3.0
+        \n- duration indefinitely\n
+        \nPatients incidentally found to have asymptomatic DVT or PE
+        \n- same mgmt as comparable pts with symptomatic DVT or PE\n
+        \nSVT (superficial vein thrombosis) leg 5+ cm long
+        \n- prophylactic dose fondaparinux preferred over LMWH
+        \n- duration 45 days\n
+        \nUEDVT (upper extr DVT) associated with central venous catheter
+        \n- catheter need not be removed if functional and valuable for pt care\n
+        \nUEDVT assoc with central venous catheter which is not removed
+        \n- target 2.0-3.0
+        \n- duration as long as catheter remains\n
+        \nUEDVT assoc with catheter which is removed
+        \n- target 2.0-3.0
+        \n- duration 3 months\n
+        \nUEDVT not assoc with catheter
+        \n- target 2.0-3.0
+        \n- duration 3 months\n
+        \nPatients with symptomatic hepatic or splanchnic vein thrombosis (portal, mesenteric, and/or splenic)
+        \n- anticoagulation recommended, preference for LMWH over Warfarin if active cancer, liver disease, thrombocytopenia
+        \n- duration indefinitely if no transient risk factor and low risk of bleeding, 3 months preferred otherwise\n
+        \nPatients with asymptomatic hepatic or splanchnic vein thrombosis
+        \n- no anticoagulation recommended
+        \n- data to guide this situation sparse\n
+        \n* Bleeding risk scheme:
+        \nLow risk = 0 risk factors
+        \nModerate risk = 1 risk factor
+        \nHigh risk = 2+ risk factors
+        \nRisk factors: age > 65, previous bleed, cancer, renal failure, liver failure, thrombocytopenia,
+        previous stroke, diabetes, anemia, antiplatelet therapy, poor anticoagulant control, comorbidity
+        and reduced functional capacity, recent surgery, frequent falls, alcohol use</string>
+    <string name="valve_structural" formatted="false">Rheumatic mitral valve dz, normal sinus rhythm, and left atrial diameter \u003C 55 mm
+        \n- no anticoagulant or antiplatelet recommended
+        \n\nRheumatic mitral valve dz, normal sinus rhythm, and left atrial diameter > 55 mm
+        \n- target 2.0-3.0
+        \n- duration indefinitely
+        \n\nRheumatic mitral valve dz complicated singly or in combination by A-Fib, left atrial thrombus, or previous systemic embolism
+        \n- target 2.0-3.0
+        \n- duration indefinitely
+        \n\nWhen percutaneous mitral balloon valvulotomy (PMBV) considered and TEE shows left atrial thrombus
+        \n- target 2.0-3.0
+        \n- duration until thrombus resolves
+        \n\nPatent Foramen Ovale (PFO) or atrial septal aneurysm asymptomatic
+        \n- no anticoagulant recommended
+        \n\nPFO or atrial septal aneurysm with cryptogenic stroke
+        \n- aspirin therapy recommended
+        \n\nPFO or atrial septal aneurysm with recurrent cryptogenic stroke events despite aspirin
+        \n- target INR 2.0-3.0
+        \n- consider device closure over aspirin
+        \n\nPFO, cryptogenic stroke, and evidence of DVT
+        \n- target 2.0-3.0
+        \n- duration 3 months
+        \n- consider device closure over no Warfarin or no aspirin therapy
+        \n\nInfective endocarditis without another particular indication
+        \n- no anticoagulant or antiplatelet recommended
+        \n\nAortic bioprosthetic valve with sinus rhythm and no other Warfarin indication
+        \n- aspirin 50-100 mg/day
+        \n- duration 3 months
+        \n\nTranscatheter aortic bioprosthetic valve
+        \n- aspirin 50-100 mg/day \u0026 clopidogrel 75 mg/day
+        \n- duration 3 months
+        \n\nMitral bioprosthetic valve
+        \n- target 2.0-3.0
+        \n- duration 3 months
+        \n\nBioprosthetic valve in any position after first 3 months post-insertion
+        \n- aspirin
+        \n- duration indefinite
+        \n\nMechanical aortic valve
+        \n- target 2.0-3.0
+        \n- consider adding aspirin 50-100 mg/day for pts at low risk of bleeding
+        \n- duration indefinite
+        \n\nMechanical mitral valve
+        \n- target 2.5-3.5
+        \n- consider adding aspirin 50-100 mg/day for pts at low risk of bleeding
+        \n- duration indefinite
+        \n\nMechanical valve in aortic and mitral position
+        \n- target 2.5-3.5
+        \n- consider adding aspirin 50-100 mg/day for pts at low risk of bleeding
+        \n- duration indefnite
+        \n\nAnterior myocardial infarction (MI) and left ventricular (LV) thrombus or at high risk for LV thrombus (EF &lt; 40&#37;,
+        anteroseptal wall motion abnormality) who do not receive stent
+        \n- target 2.0-3.0 plus aspirin 75-100 mg/day
+        \n- duration first 3 mos
+        \n- dual antiplatelet therapy alone months 3-12
+        \n- single antiplatelet therapy after 12 months
+        \n\nAnterior MI and LV thrombus or at high risk for LV thrombus (EF &lt; 40&#37;, anteroseptal wall motion abnormality)
+        who receive bare metal stent (BMS)
+        \n- target 2.0-3.0 plus low-dose aspirin and clopidogrel 75 mg/day
+        \n- duration 1st month
+        \n- target INR 2.0-3.0 plus single antiplatelet therapy 2nd &amp; 3rd month
+        \n- dual antiplatelet therapy alone months 4-12
+        \n- standard antiplatelet therapy after 12 months
+        \n\nAnterior MI and LV thrombus or at high risk for LV thrombus (EF &lt; 40&#37;, anteroseptal wall motion abnormality)
+        who receive drug-eluting stent (DES)
+        \n- target 2.0-3.0 plus low-dose aspirin and clopidogrel 75 mg/day
+        \n- duration 3-6 months
+        \n- dual antiplatelet therapy alone thru 12 months
+        \n- standard antiplatelet therapy after 12 months
+        \n\nSystolic LV dysfunction with acute LV thrombus but without established CAD
+        \n- target 2.0-3.0
+        \n- duration at least 3 months</string>
 </resources>
