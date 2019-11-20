@@ -20,7 +20,7 @@ public class HomeFragment extends Fragment {
     public Button back, b1p0, b2p0, b3p0, b4p0, b1p1, b2p1, b3p1, b4p1, b5p1, b1p3, b2p3, b3p3,
             b1p10, b2p10, b3p10, b4p10, b5p10, b6p10, b1p11, b2p11, b3p11, b4p11, b5p11, b6p11,
     b1p18, b2p18, b3p18, b1p24, b2p24, b3p24;
-    TextView t1p0, t1p1, t2p1;
+    TextView t1p0, t1p1, t2p1, t1p5, t1p6, t1p7, t1p8, t1p9;
     int page = 0;
     Stack<Integer> pageLast = new Stack<Integer>();
     private HomeViewModel homeViewModel;
@@ -30,13 +30,13 @@ public class HomeFragment extends Fragment {
         homeViewModel =
                 ViewModelProviders.of(this).get(HomeViewModel.class);
         View root = inflater.inflate(R.layout.fragment_home, container, false);
-        //final TextView textView = root.findViewById(R.id.text_home);
-//        homeViewModel.getText().observe(this, new Observer<String>() {
-//            @Override
-//            public void onChanged(@Nullable String s) {
-//                textView.setText(s);
-//            }
-//        });
+        final TextView textView = root.findViewById(R.id.text_home);
+        homeViewModel.getText().observe(this, new Observer<String>() {
+            @Override
+            public void onChanged(@Nullable String s) {
+                textView.setText(s);
+            }
+        });
         back = root.findViewById(R.id.back);
         //page 0
         b1p0 = root.findViewById(R.id.b1p0);
@@ -56,6 +56,16 @@ public class HomeFragment extends Fragment {
         b1p3 = root.findViewById(R.id.b1p3);
         b2p3 = root.findViewById(R.id.b2p3);
         b3p3 = root.findViewById(R.id.b3p3);
+        //page 5
+        t1p5 = root.findViewById(R.id.t1p5);
+        //page 6
+        t1p6 = root.findViewById(R.id.t1p6);
+        //page 7
+        t1p7 = root.findViewById(R.id.t1p7);
+        //page 8
+        t1p8 = root.findViewById(R.id.t1p8);
+        //page 9
+        t1p9 = root.findViewById(R.id.t1p9);
         //page 10
         b1p10 = root.findViewById(R.id.b1p10);
         b2p10 = root.findViewById(R.id.b2p10);
@@ -378,8 +388,6 @@ public class HomeFragment extends Fragment {
             //disable back
             back.setVisibility(View.GONE);
             back.setEnabled(false);
-            page1Dis();
-            page3Dis();
         }
         else if(i == 1){
             t1p1.setVisibility(View.VISIBLE);
@@ -410,19 +418,19 @@ public class HomeFragment extends Fragment {
 
         }
         else if(i == 5){
-
+            t1p5.setVisibility(View.VISIBLE);
         }
         else if(i == 6) {
-
+            t1p6.setVisibility(View.VISIBLE);
         }
         else if(i == 7){
-
+            t1p7.setVisibility(View.VISIBLE);
         }
         else if(i == 8) {
-
+            t1p8.setVisibility(View.VISIBLE);
         }
         else if(i == 9){
-
+            t1p9.setVisibility(View.VISIBLE);
         }
         else if(i == 10){
             b1p10.setEnabled(true);
@@ -542,6 +550,16 @@ public class HomeFragment extends Fragment {
         b2p3.setVisibility(View.GONE);
         b3p3.setEnabled(false);
         b3p3.setVisibility(View.GONE);
+        //page 5
+        t1p5.setVisibility(View.GONE);
+        //page 6
+        t1p6.setVisibility(View.GONE);
+        //page 7
+        t1p7.setVisibility(View.GONE);
+        //page 8
+        t1p8.setVisibility(View.GONE);
+        //page 9
+        t1p9.setVisibility(View.GONE);
 
         //page 10
         b1p10.setEnabled(false);
@@ -588,54 +606,4 @@ public class HomeFragment extends Fragment {
         b3p24.setVisibility(View.GONE);
     }
 
-    public void page0Dis(){
-        b1p0.setEnabled(false);
-        b1p0.setVisibility(View.GONE);
-        b2p0.setEnabled(false);
-        b2p0.setVisibility(View.GONE);
-        b3p0.setEnabled(false);
-        b3p0.setVisibility(View.GONE);
-        b4p0.setEnabled(false);
-        b4p0.setVisibility(View.GONE);
-        t1p0.setVisibility(View.GONE);
-    }
-    public void page1Dis(){
-        t1p1.setVisibility(View.GONE);
-        b1p1.setEnabled(false);
-        b1p1.setVisibility(View.GONE);
-        b2p1.setEnabled(false);
-        b2p1.setVisibility(View.GONE);
-        b3p1.setEnabled(false);
-        b3p1.setVisibility(View.GONE);
-        b4p1.setEnabled(false);
-        b4p1.setVisibility(View.GONE);
-        b5p1.setEnabled(false);
-        b5p1.setVisibility(View.GONE);
-        t2p1.setVisibility(View.GONE);
-    }
-    public void page3Dis(){
-        //t1p1.setVisibility(View.GONE);
-        b1p3.setEnabled(false);
-        b1p3.setVisibility(View.GONE);
-        b2p3.setEnabled(false);
-        b2p3.setVisibility(View.GONE);
-        b3p3.setEnabled(false);
-        b3p3.setVisibility(View.GONE);
-        //t2p1.setVisibility(View.GONE);
-    }
-    public void page10Dis(){
-        b1p10.setEnabled(false);
-        b1p0.setVisibility(View.GONE);
-        b2p10.setEnabled(false);
-        b2p10.setVisibility(View.GONE);
-        b3p10.setEnabled(false);
-        b3p10.setVisibility(View.GONE);
-        b4p10.setEnabled(false);
-        b4p10.setVisibility(View.GONE);
-        b5p10.setEnabled(false);
-        b5p10.setVisibility(View.GONE);
-        b6p10.setEnabled(false);
-        b6p10.setVisibility(View.GONE);
-
-    }
 }
