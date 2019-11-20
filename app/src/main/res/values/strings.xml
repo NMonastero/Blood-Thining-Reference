@@ -298,5 +298,19 @@
         \n\n2012 edition: recommends against Vit K, no other explicit guidance
         \n\nPrevious editions: hold dose for 1-2 days, consider Vit K 1-2.5 mg orally, decrease total weekly
         dose by 10% to 20%, and monitor INR frequently.  (Note that the INR level for this guidance in previous editions was 8.9, not 10.0)</string>
-
+    <string name="adjust_note">NOTE: Always ask questions and think before adjusting Warfarin dosing.
+        \n- When was the last INR? the last dose change?
+        \n- Did pt make last recommended dose change, and when?
+        \n- Does this INR reflect steady state?
+        \n- Does non-therapeutic INR reflect incorrect dose, incorrect dosing directions [i.e. miscommunication], new medication
+        or medical condition, or non-compliance?</string>
+    <string name="inr_lt_1_5">Result of INR is &lt; 1.5 *
+        \nIncrease total weekly dose by 10% to 20%, consider extra dose
+        \n\nNext INR:
+        \n4 to 8 days
+        \n\n* before you change dose, assess patient compliance &#8212; maybe dose is right but patient isn't taking it</string>
+    <string name="elevated_inr_note">The ACCP 2012 guideline recommendations for elevated INR\'s are less
+        interventional than previous but also less clear.  E.g. for elevated INR without bleeding we are
+        told what action should not be taken (no Vit K), but are not told what action should be taken.
+        For familiarity and clarity, new recommendations will be presented along with the old.</string>
 </resources>
