@@ -248,4 +248,32 @@
         \n\nSystolic LV dysfunction with acute LV thrombus but without established CAD
         \n- target 2.0-3.0
         \n- duration at least 3 months</string>
+    <string name="ortho_surgery">Major orthopedic surgery (total hip, total knee, hip fracture)
+        pts should receive an antithrombotic prophylactic with one of following agents
+        \n- LMWH (low molecular wt heparin), fondaparinux, apixaban, dabigatran, rivaroxaban, LDUH (low dose
+        unfractionated heparin), VKA (Warfarin), aspirin (debatable, see article), or intermittant pneumatic
+        compression device (IPCD)
+        \n- preference for LMWH over others
+        \n- duration minimum 10-14 days post-op
+        \n- duration preferred extended up to 35 days
+        \n\nDual prophylaxis with antithrombotic agent and IPCD recommended during hospital stay
+        \n- guideline quite specific about features of IPCD necessary to confer benefit
+        \n\nPatients with an increased risk of bleeding receive recommendation for IPCD or no prophylaxis over pharmacologic agent
+        \n- bleeding risk factors are (1) previous major bleeding without change for risk of recurrence, (2) severe renal
+        failure, (3) concomitant antiplatelet agent, (4)surgical factors: history of or difficult-to-control surgical
+        bleeding during the current operative procedure, extensive surgical dissection, revision surgery
+        \n- absolute risks of bleeding on pharmacologic agents are small
+        \n- balance of risks, benefits, and preferences should be individualized to the pt
+
+Major orthopedic surgery pts who decline or are uncooperative with injections or an IPCD
+- apixaban or dabigatran
+  recommended
+- rivaroxaban or VKA (Warfarin) if
+  above unavailable
+
+Patients with just knee arthroscopy without history of VTE
+- no prophylaxis recommended
+
+Patients with isolated lower-leg injuries requiring leg immobilization
+- no prophylaxis recommended</string>
 </resources>
