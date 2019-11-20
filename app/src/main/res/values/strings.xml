@@ -264,16 +264,39 @@
         bleeding during the current operative procedure, extensive surgical dissection, revision surgery
         \n- absolute risks of bleeding on pharmacologic agents are small
         \n- balance of risks, benefits, and preferences should be individualized to the pt
+        \n\nMajor orthopedic surgery pts who decline or are uncooperative with injections or an IPCD
+        \n- apixaban or dabigatran recommended
+        \n- rivaroxaban or VKA (Warfarin) if above unavailable
+        \n\nPatients with just knee arthroscopy without history of VTE
+        \n- no prophylaxis recommended
+        \n\nPatients with isolated lower-leg injuries requiring leg immobilization
+        \n- no prophylaxis recommended</string>
+    <string name="thrombophilia">ACCP 2012 guideline recommends in patients with asymptomatic thrombophilia
+        (that is, no history of previous VTE) not to use mechanical or pharmacologic thrombo-prophylaxis.
+        \n\nThere is very little evidence to provide guidance on this topic, and even less of quality.
+        \n\nFor those patients who have had a VTE event in setting of thrombophilia, anticoagulation is recommended
+        \n- target 2.0-3.0, even for antiphos
+        \n-pholipid syndrome pts
+        \n- duration indefinitely</string>
+    <string name="major_bleed">Patient has major bleeding at any INR level:
+        \n\n2012 edition: rapidly reverse Warfarin anticoagulation with four-factor prothrombin complex
+        concentrate (PCC), fresh frozen plasma (FFP), or recombinant factor VIIa, with preference for PCC over FFP.
+        Additionally, give Vit K 5-10 mg slow IV push, as the benefit of the above coagulation factor(s) is relatively
+        short-lived compared to the Warfarin still in the pt.
+        \n\nPrevious editions broke up the guidance into two categories of bleeding: serious and life-threatening.
+        \n\n- Serious bleeding: hold all Warfarin therapy, give Vit K 10 mg slow IV push plus fresh frozen plasma
+        (FFP) or pro-thrombin complex concentrate depending upon urgency, repeat Vit K every 12 hours as needed.
+        \n\n- Life-threatening bleeding: hold all Warfarin therapy, give prothrombin complex concentrate
+        (or recombinant factor VIIa as an alternative) supplemented with Vit K 10 mg slow IV push, repeat as needed.</string>
+    <string name="gt_10_no_sig_bleeding">Result of INR is > 10.0 and there is no significant bleeding:
+        \n\n2012 edition: recommends giving Vit K, no other explicit guidance. Discussion cites doses of 2-2.5 mg oral
+        Vit K used in studies but does not cite whether this is an optimal dose.
+        \n\nPrevious editions: hold all Warfarin therapy, give Vit K 5-10 mg orally, monitor INR frequently,
+        and resume Warfarin at lower dose when INR is therapeutic. (Note that the INR level for this guidance
+        in previous editions was 8.9, not 10.0)</string>
+    <string name="lte_10_no_sig_bleeding">Result of INR is ≤ 10.0 and there is no significant bleeding:
+        \n\n2012 edition: recommends against Vit K, no other explicit guidance
+        \n\nPrevious editions: hold dose for 1-2 days, consider Vit K 1-2.5 mg orally, decrease total weekly
+        dose by 10% to 20%, and monitor INR frequently.  (Note that the INR level for this guidance in previous editions was 8.9, not 10.0)</string>
 
-Major orthopedic surgery pts who decline or are uncooperative with injections or an IPCD
-- apixaban or dabigatran
-  recommended
-- rivaroxaban or VKA (Warfarin) if
-  above unavailable
-
-Patients with just knee arthroscopy without history of VTE
-- no prophylaxis recommended
-
-Patients with isolated lower-leg injuries requiring leg immobilization
-- no prophylaxis recommended</string>
 </resources>
