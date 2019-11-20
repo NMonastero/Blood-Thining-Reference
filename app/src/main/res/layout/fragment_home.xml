@@ -471,4 +471,56 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
+    <TextView
+        android:id="@+id/t1p5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        android:text="@string/dvt_or_pe"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <TextView
+        android:id="@+id/t1p6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        android:text="@string/afib_flutter"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="228dp" />
+    <TextView
+        android:id="@+id/t1p7"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        android:text="@string/valve_structural"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="228dp" />
+    <TextView
+        android:id="@+id/t1p8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        android:text="@string/ortho_surgery"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="228dp" />
+    <TextView
+        android:id="@+id/t1p9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        android:text="@string/thro"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="228dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
