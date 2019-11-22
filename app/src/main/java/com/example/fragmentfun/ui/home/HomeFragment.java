@@ -21,7 +21,8 @@ public class HomeFragment extends Fragment {
     public Button back, b1p0, b2p0, b3p0, b4p0, b1p1, b2p1, b3p1, b4p1, b5p1, b1p3, b2p3, b3p3,
             b1p10, b2p10, b3p10, b4p10, b5p10, b6p10, b1p11, b2p11, b3p11, b4p11, b5p11, b6p11,
     b1p18, b2p18, b3p18, b1p24, b2p24, b3p24;
-    TextView t1p0, t1p1, t2p1, t1p5, t1p6, t1p7, t1p8, t1p9, t1p2, t1p4, t1p3, t2p3, t1p12, t1p11;
+    TextView t1p0, t1p1, t2p1, t1p5, t1p6, t1p7, t1p8, t1p9, t1p2, t1p4, t1p3, t2p3, t1p12, t1p11,
+            t1p13, t1p14, t1p15, t1p16, t1p17, t1p20, t1p21, t1p22, t1p23, t1p25,t1p26,t1p27;
     int page = 0;
     Stack<Integer> pageLast = new Stack<Integer>();
     private HomeViewModel homeViewModel;
@@ -91,14 +92,39 @@ public class HomeFragment extends Fragment {
         t1p11 = root.findViewById(R.id.t1p11);
         //page 12
         t1p12 = root.findViewById(R.id.t1p12);
+        //page 13
+        t1p13 = root.findViewById(R.id.t1p13);
+        //page 14
+        t1p14 = root.findViewById(R.id.t1p14);
+        //page 15
+        t1p15 = root.findViewById(R.id.t1p15);
+        //page 16
+        t1p16 = root.findViewById(R.id.t1p16);
+        //page 17
+        t1p17 = root.findViewById(R.id.t1p17);
         //page 18
         b1p18 = root.findViewById(R.id.b1p18);
         b2p18 = root.findViewById(R.id.b2p18);
         b3p18 = root.findViewById(R.id.b3p18);
+        //page 19 is a duplicate of page 13
+        //page 20
+        t1p20 = root.findViewById(R.id.t1p20);
+        //page 21
+        t1p21 = root.findViewById(R.id.t1p21);
+        //page 22
+        t1p22 = root.findViewById(R.id.t1p22);
+        //page 23
+        t1p23 = root.findViewById(R.id.t1p23);
         //page 24
         b1p24 = root.findViewById(R.id.b1p24);
         b2p24 = root.findViewById(R.id.b2p24);
         b3p24 = root.findViewById(R.id.b3p24);
+        //page 25
+        t1p25 = root.findViewById(R.id.t1p25);
+        //page 26
+        t1p26 = root.findViewById(R.id.t1p26);
+        //page 27
+        t1p27 = root.findViewById(R.id.t1p27);
         changePage(page);
         back.setOnClickListener(new View.OnClickListener()
         {
@@ -379,6 +405,36 @@ public class HomeFragment extends Fragment {
                 changePage(page);
             }
         });
+        b1p24.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                pageLast.push(page);
+                page = 25;
+                changePage(page);
+            }
+        });
+        b2p24.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                pageLast.push(page);
+                page = 26;
+                changePage(page);
+            }
+        });
+        b3p24.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                pageLast.push(page);
+                page = 27;
+                changePage(page);
+            }
+        });
         return root;
     }
 
@@ -479,19 +535,19 @@ public class HomeFragment extends Fragment {
             t1p12.setVisibility(View.VISIBLE);
         }
         else if(i == 13){
-
+            t1p13.setVisibility(View.VISIBLE);
         }
         else if(i == 14) {
-
+            t1p14.setVisibility(View.VISIBLE);
         }
         else if(i == 15){
-
+            t1p15.setVisibility(View.VISIBLE);
         }
         else if(i == 16){
-
+            t1p16.setVisibility(View.VISIBLE);
         }
         else if(i == 17) {
-
+            t1p17.setVisibility(View.VISIBLE);
         }
         else if(i == 18){
             b1p18.setEnabled(true);
@@ -502,19 +558,19 @@ public class HomeFragment extends Fragment {
             b3p18.setVisibility(View.VISIBLE);
         }
         else if(i == 19){
-
+            t1p13.setVisibility(View.VISIBLE);
         }
         else if(i == 20) {
-
+            t1p20.setVisibility(View.VISIBLE);
         }
         else if(i == 21){
-
+            t1p21.setVisibility(View.VISIBLE);
         }
         else if(i == 22){
-
+            t1p22.setVisibility(View.VISIBLE);
         }
         else if(i == 23) {
-
+            t1p23.setVisibility(View.VISIBLE);
         }
         else if(i == 24){
             b1p24.setEnabled(true);
@@ -526,10 +582,13 @@ public class HomeFragment extends Fragment {
 
         }
         else if(i == 25){
-
+            t1p25.setVisibility(View.VISIBLE);
         }
         else if(i == 26) {
-
+            t1p26.setVisibility(View.VISIBLE);
+        }
+        else if(i == 27) {
+            t1p27.setVisibility(View.VISIBLE);
         }
     }
 
@@ -580,7 +639,6 @@ public class HomeFragment extends Fragment {
         t1p8.setVisibility(View.GONE);
         //page 9
         t1p9.setVisibility(View.GONE);
-
         //page 10
         b1p10.setEnabled(false);
         b1p10.setVisibility(View.GONE);
@@ -595,7 +653,6 @@ public class HomeFragment extends Fragment {
         b6p10.setEnabled(false);
         b6p10.setVisibility(View.GONE);
         t1p11.setVisibility(View.GONE);
-
         //page 11
         b1p11.setEnabled(false);
         b1p11.setVisibility(View.GONE);
@@ -610,8 +667,18 @@ public class HomeFragment extends Fragment {
         b6p11.setEnabled(false);
         b6p11.setVisibility(View.GONE);
         t1p11.setVisibility(View.GONE);
-        //page
+        //page 12
         t1p12.setVisibility(View.GONE);
+        //page 13
+        t1p13.setVisibility(View.GONE);
+        //page 14
+        t1p14.setVisibility(View.GONE);
+        //page 15
+        t1p15.setVisibility(View.GONE);
+        //page 16
+        t1p16.setVisibility(View.GONE);
+        //page 17
+        t1p17.setVisibility(View.GONE);
         //page 18
         b1p18.setEnabled(false);
         b1p18.setVisibility(View.GONE);
@@ -619,7 +686,16 @@ public class HomeFragment extends Fragment {
         b2p18.setVisibility(View.GONE);
         b3p18.setEnabled(false);
         b3p18.setVisibility(View.GONE);
-
+        //page 19
+        t1p13.setVisibility(View.GONE);
+        //page 20
+        t1p20.setVisibility(View.GONE);
+        //page 21
+        t1p21.setVisibility(View.GONE);
+        //page 22
+        t1p22.setVisibility(View.GONE);
+        //page 23
+        t1p23.setVisibility(View.GONE);
         //page 24
         b1p24.setEnabled(false);
         b1p24.setVisibility(View.GONE);
@@ -627,6 +703,12 @@ public class HomeFragment extends Fragment {
         b2p24.setVisibility(View.GONE);
         b3p24.setEnabled(false);
         b3p24.setVisibility(View.GONE);
+        //page 25
+        t1p25.setVisibility(View.GONE);
+        //page 26
+        t1p26.setVisibility(View.GONE);
+        //page 27
+        t1p27.setVisibility(View.GONE);
     }
 
 }
