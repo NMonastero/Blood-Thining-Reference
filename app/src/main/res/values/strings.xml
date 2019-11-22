@@ -177,7 +177,8 @@
         \nHigh risk = 2+ risk factors
         \nRisk factors: age > 65, previous bleed, cancer, renal failure, liver failure, thrombocytopenia,
         previous stroke, diabetes, anemia, antiplatelet therapy, poor anticoagulant control, comorbidity
-        and reduced functional capacity, recent surgery, frequent falls, alcohol use</string>
+        and reduced functional capacity, recent surgery, frequent falls, alcohol use
+        </string>
     <string name="valve_structural" formatted="false">Rheumatic mitral valve dz, normal sinus rhythm, and left atrial diameter \u003C 55 mm
         \n- no anticoagulant or antiplatelet recommended
         \n\nRheumatic mitral valve dz, normal sinus rhythm, and left atrial diameter > 55 mm
