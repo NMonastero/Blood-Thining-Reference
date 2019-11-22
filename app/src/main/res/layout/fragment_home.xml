@@ -627,10 +627,8 @@
         android:textSize="15sp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="228dp" />
-<<<<<<< HEAD
         </LinearLayout>
     </ScrollView>
-=======
 
     <TextView
         android:id="@+id/t1p11"
@@ -643,5 +641,4 @@
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="228dp" />
 
->>>>>>> a07b95345ef900a17e5612808eca5dbd447d0a05
 </androidx.constraintlayout.widget.ConstraintLayout>
