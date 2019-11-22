@@ -21,7 +21,7 @@ public class HomeFragment extends Fragment {
     public Button back, b1p0, b2p0, b3p0, b4p0, b1p1, b2p1, b3p1, b4p1, b5p1, b1p3, b2p3, b3p3,
             b1p10, b2p10, b3p10, b4p10, b5p10, b6p10, b1p11, b2p11, b3p11, b4p11, b5p11, b6p11,
     b1p18, b2p18, b3p18, b1p24, b2p24, b3p24;
-    TextView t1p0, t1p1, t2p1, t1p5, t1p6, t1p7, t1p8, t1p9, t1p2, t1p4, t1p3, t2p3, t1p12;
+    TextView t1p0, t1p1, t2p1, t1p5, t1p6, t1p7, t1p8, t1p9, t1p2, t1p4, t1p3, t2p3, t1p12, t1p11;
     ScrollView svp5, svp6;
     int page = 0;
     Stack<Integer> pageLast = new Stack<Integer>();
@@ -83,6 +83,7 @@ public class HomeFragment extends Fragment {
         b4p10 = root.findViewById(R.id.b4p10);
         b5p10 = root.findViewById(R.id.b5p10);
         b6p10 = root.findViewById(R.id.b6p10);
+        t1p11 = root.findViewById(R.id.t1p11);
         //page 11
         b1p11 = root.findViewById(R.id.b1p11);
         b2p11 = root.findViewById(R.id.b2p11);
@@ -90,6 +91,7 @@ public class HomeFragment extends Fragment {
         b4p11 = root.findViewById(R.id.b4p11);
         b5p11 = root.findViewById(R.id.b5p11);
         b6p11 = root.findViewById(R.id.b6p11);
+        t1p11 = root.findViewById(R.id.t1p11);
         //page 12
         t1p12 = root.findViewById(R.id.t1p12);
         //page 18
@@ -461,6 +463,7 @@ public class HomeFragment extends Fragment {
             b5p10.setVisibility(View.VISIBLE);
             b6p10.setEnabled(true);
             b6p10.setVisibility(View.VISIBLE);
+            t1p11.setVisibility(View.VISIBLE);
         }
         else if(i == 11) {
             b1p11.setEnabled(true);
@@ -475,6 +478,7 @@ public class HomeFragment extends Fragment {
             b5p11.setVisibility(View.VISIBLE);
             b6p11.setEnabled(true);
             b6p11.setVisibility(View.VISIBLE);
+            t1p11.setVisibility(View.VISIBLE);
         }
         else if(i == 12){
             t1p12.setVisibility(View.VISIBLE);
@@ -597,6 +601,7 @@ public class HomeFragment extends Fragment {
         b5p10.setVisibility(View.GONE);
         b6p10.setEnabled(false);
         b6p10.setVisibility(View.GONE);
+        t1p11.setVisibility(View.GONE);
 
         //page 11
         b1p11.setEnabled(false);
@@ -611,6 +616,7 @@ public class HomeFragment extends Fragment {
         b5p11.setVisibility(View.GONE);
         b6p11.setEnabled(false);
         b6p11.setVisibility(View.GONE);
+        t1p11.setVisibility(View.GONE);
         //page
         t1p12.setVisibility(View.GONE);
         //page 18
