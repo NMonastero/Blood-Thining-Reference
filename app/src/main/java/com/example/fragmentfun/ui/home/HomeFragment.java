@@ -66,10 +66,10 @@ public class HomeFragment extends Fragment {
         t1p4 = root.findViewById(R.id.t1p4);
         //page 5
         t1p5 = root.findViewById(R.id.t1p5);
-        svp5 = root.findViewById(R.id.svp5);
+        //svp5 = root.findViewById(R.id.svp5);
         //page 6
         t1p6 = root.findViewById(R.id.t1p6);
-        svp6 = root.findViewById(R.id.svp6);
+        //svp6 = root.findViewById(R.id.svp6);
         //page 7
         t1p7 = root.findViewById(R.id.t1p7);
         //page 8
@@ -433,7 +433,7 @@ public class HomeFragment extends Fragment {
         }
         else if(i == 5){
             t1p5.setVisibility(View.VISIBLE);
-            svp5.setEnabled(true);
+            //svp5.setEnabled(true);
         }
         else if(i == 6) {
             t1p6.setVisibility(View.VISIBLE);
@@ -573,10 +573,10 @@ public class HomeFragment extends Fragment {
         t1p4.setVisibility(View.GONE);
         //page 5
         t1p5.setVisibility(View.GONE);
-        svp5.setEnabled(false);
+        //svp5.setEnabled(false);
         //page 6
         t1p6.setVisibility(View.GONE);
-        svp6.setEnabled(false);
+        //svp6.setEnabled(false);
         //page 7
         t1p7.setVisibility(View.GONE);
         //page 8
