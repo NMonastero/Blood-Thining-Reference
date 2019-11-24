@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#8ECEFA"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
@@ -43,7 +44,7 @@
                 android:layout_marginBottom="0dp"
                 android:text="Back"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -57,6 +58,8 @@
                 android:text="Choose a Warfarin resource you would like to review"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="-8dp"
                 tools:layout_editor_absoluteY="90dp" />
 
@@ -70,7 +73,9 @@
                 android:layout_marginBottom="0dp"
                 android:text="Indications, Targets, Duration"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -85,7 +90,9 @@
                 android:layout_marginBottom="0dp"
                 android:text="Initiate Warfarin"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -100,7 +107,9 @@
                 android:layout_marginBottom="0dp"
                 android:text="Adjust Warfarin"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -115,7 +124,9 @@
                 android:layout_marginBottom="0dp"
                 android:text="Warfarin Perioperative Mgmt"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -129,7 +140,9 @@
                 android:layout_marginBottom="0dp"
                 android:text="Review the INR target and duration of Warfarin therapy according to medical indication grouped in these categories:"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -143,7 +156,7 @@
                 android:layout_marginBottom="0dp"
                 android:text="DVT or PE"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -156,7 +169,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="A-Fib (and A-Flutter, PAF)"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -169,7 +182,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="Valve/Structural Heart Disease"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -182,7 +195,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="After Major Orthopedic Surgery"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -195,7 +208,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="Thrombophilia"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -206,7 +219,9 @@
                 android:layout_height="match_parent"
                 android:text="2012 ACCP guideline simplifies targers by recomending a target INR of 2.5 (range 2.0-3.0) for all except those with a few specific indications."
                 android:textAlignment="center"
-                android:textSize="15sp"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -216,7 +231,9 @@
                 android:layout_height="match_parent"
                 android:text="Choose the target INR"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -228,7 +245,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="Target INR 2.0 to 3.0"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -241,7 +258,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="Target INR 2.5 to 3.5"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -254,7 +271,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="About the adjustment protocol"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -267,7 +284,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR &lt; 1.5"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -280,7 +297,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR 1.5 to 1.9"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -293,7 +310,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR 2.0 to 3.0"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -306,7 +323,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR 3.1 to 3.9"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -319,7 +336,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR 4.1 to 4.9"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -332,7 +349,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR >= 5.0"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -345,7 +362,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR &lt; 1.5"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -358,7 +375,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR 1.5 to 2.4"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -371,7 +388,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR 2.5 to 3.5"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -384,7 +401,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR 3.6 to 4.5"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -397,7 +414,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR 4.6 to 5.9"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -410,7 +427,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR >= 6.0"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -423,7 +440,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR &lt;= 10, no signif. bleeding"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -436,7 +453,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR > 10, no signif. bleeding"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -449,7 +466,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="Major bleeding, any INR"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -462,7 +479,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR &lt;= 10, no signif. bleeding"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -475,7 +492,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="INR > 10, no signif. bleeding"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -488,7 +505,7 @@
                 android:layout_marginEnd="8dp"
                 android:text="Major bleeding, any INR"
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -511,8 +528,9 @@
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="0dp"
+                android:textColor="@android:color/black"
                 android:text="@string/dvt_or_pe"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -522,9 +540,10 @@
                 android:id="@+id/t1p6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-
+                android:textColor="@android:color/black"
                 android:text="@string/afib_flutter"
-                android:textSize="15sp"
+                android:textSize="20sp"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -532,9 +551,10 @@
                 android:id="@+id/t1p7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 android:text="@string/valve_structural"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -543,7 +563,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/ortho_surgery"
-                android:textSize="15sp"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -553,7 +575,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/thrombophilia"
-                android:textSize="15sp"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -562,7 +586,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/initiate"
-                android:textSize="15sp"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -570,8 +596,10 @@
                 android:id="@+id/t1p4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/initiate"
-                android:textSize="15sp"
+                android:text="FIX LATER"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -580,7 +608,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/adjust_note"
-                android:textSize="15sp"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -589,7 +619,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/about_protocol"
-                android:textSize="15sp"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -600,7 +632,9 @@
                 android:layout_height="match_parent"
                 android:text="Most recent result is..."
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -613,7 +647,9 @@
                 \nNext INR:
                 \n4 to 8 days\n
                 \n*before you change dose, assess patient compliance -- maybe does is correct but patient isn't taking it"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
             <TextView
@@ -627,7 +663,9 @@
                 \n*if INR 1.8 to 1.9, consider no change with repeat INR in 7-14 days
                 \n**ACCP 2012 adds that for single out of range INR &lt;= 0.5 below or above therapeutic and previously stable therapeutic INR results, consider no change with repeat INR in 7-14 days
                 \n***before you change dose, assess patient compliance -- maybe does is correct but patient isn't taking it"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
             <TextView
@@ -640,22 +678,26 @@
                 \n# of consecutive in-range INR's x 1 week, max interval q4 weeks**\n
                 \n*example: if patient has 3 consecutive INR's therapeutic, then recheck next INR in 3 weeks
                 \n**ACCP 2012 adds that patients with consistently stable INR's can have testing intervals as large as 12 weeks"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
             <TextView
-            android:id="@+id/t1p16"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+                android:id="@+id/t1p16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:text="Result of INR is 3.1 to 3.9* **;
                 \nDecrease total weekly dose by 5% to 10%\n
                 \nNext INR:
                 \n7 to 14 days\n
                 \n*if INR 3.1 to 3.2, consider no change with repeat INR in 7-14 days
                 \n**ACCP 2012 adds that for single out of range INR &lt;= 0.5 below or above therapeutic and previously stable therapeutic INR results, consider no change with repeat INR"
-            android:textSize="20sp"
-            tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="228dp" />
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="228dp" />
 
             <TextView
                 android:id="@+id/t1p17"
@@ -665,7 +707,9 @@
                 \nOption to hold dose for 1 day, then decrease total weekly dose by 10%\n
                 \nNext INR:
                 \n4 to 8 days"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -680,7 +724,9 @@
                 \n*if INR 2.3 to 2.4, consider no change with repeat INR in 7-14 days
                 \n**ACCP 2012 adds that for single out of range INR &lt;= 0.5 below or above therapeutic and previously stable therapeutic INR results, consider no change with repeat INR in 7-14 days
                 \n***before you change dose, assess patient compliance -- maybe does is correct but patient isn't taking it"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
             <TextView
@@ -693,7 +739,9 @@
                 \n# of consecutive in-range INR's x 1 week, max interval q4 weeks**\n
                 \n*example: if patient has 3 consecutive INR's therapeutic, then recheck next INR in 3 weeks
                 \n**ACCP 2012 adds that patients with consistently stable INR's can have testing intervals as large as 12 weeks"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -707,7 +755,9 @@
                 \n7 to 14 days\n
                 \n*if INR 3.6 to 3.7, consider no change with repeat INR in 7-14 days
                 \n**ACCP 2012 adds that for single out of range INR &lt;= 0.5 below or above therapeutic and previously stable therapeutic INR results, consider no change with repeat INR"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -719,7 +769,9 @@
                 \nOption to hold dose for 1 day, then decrease total weekly dose by 10%\n
                 \nNext INR:
                 \n4 to 8 days"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -728,7 +780,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/lte_10_no_sig_bleeding"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -737,7 +791,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/gt_10_no_sig_bleeding"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 
@@ -746,7 +802,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/major_bleed"
-                android:textSize="20sp"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="228dp" />
 

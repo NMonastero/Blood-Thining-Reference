@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Fragment Fun</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_dashboard">References</string>
+    <string name="title_notifications">About App</string>
     <string name="title_disclaimer">Disclaimer</string>
     <string name="disclaimer_text">Dear Colleague,\n\nThis tool provides decision-support information
         to assist you in managing Warfarin. I was taught that Warfarin is the single most dangerous
@@ -46,16 +46,16 @@
         tools and strategies.</string>
     <string name="initiate">It is difficult to predict how much Warfarin a patient will ultimately need for daily or weekly dosing.
         So the approach is to get dosing started, make initial adjustments, get the patient close enough to therapeutic so that
-        any coadministered heparin can be stopped, and transition from initiation to maintenance of Warfarin.\n
-        Several schemes have been reported in the literature aiming to achieve therapeutic INR level rapidly and safely.
+        any coadministered heparin can be stopped, and transition from initiation to maintenance of Warfarin.\n\nSeveral
+        schemes have been reported in the literature aiming to achieve therapeutic INR level rapidly and safely.
         They either start with 5 mg daily or 10 mg daily and then offer algorithms for dose adjustment after
         a couple days of therapy onward. Looking at almost the identical literature set, the AFP 2005 review
         concludes that both the 5 mg and 10 mg initiation schemes are reasonable, while the ACCP 2012 review
         expresses preference for the 10 mg schemes. The AFP article offers the actual details of several
-        initiation schemes themselves so that you can implement the one you decide is appropriate for your patient.\n
-        If your humble writer and amateur programmer acquires the skill, I\'ll include the various initiation protocols
-        for ease of use in this app in the future.\n
-        The other issue ACCP 2012 addresses is the recent emergence of Warfarin initiation based on pharmacogenetic testing.
+        initiation schemes themselves so that you can implement the one you decide is appropriate for your patient.\n\nIf
+        your humble writer and amateur programmer acquires the skill, I\'ll include the various initiation protocols
+        for ease of use in this app in the future.\n\nThe
+        other issue ACCP 2012 addresses is the recent emergence of Warfarin initiation based on pharmacogenetic testing.
         Their discussion of the evidence to date leads ACCP to recommend against routine use of pharmacogenetic
         testing for guiding doses of Warfarin.</string>
     <string name="alert">This app presents the Point-of-Care Guides on the use of Warfarin (Coumadin) from the
