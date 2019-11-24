@@ -650,7 +650,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/initiate"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="@android:color/black"
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
