@@ -140,7 +140,7 @@
                 android:layout_marginBottom="0dp"
                 android:text="Review the INR target and duration of Warfarin therapy according to medical indication grouped in these categories:"
                 android:textAlignment="center"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="@android:color/black"
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
@@ -157,6 +157,8 @@
                 android:text="DVT or PE"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -170,6 +172,8 @@
                 android:text="A-Fib (and A-Flutter, PAF)"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -183,6 +187,8 @@
                 android:text="Valve/Structural Heart Disease"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -196,6 +202,8 @@
                 android:text="After Major Orthopedic Surgery"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -209,6 +217,8 @@
                 android:text="Thrombophilia"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -219,7 +229,7 @@
                 android:layout_height="match_parent"
                 android:text="2012 ACCP guideline simplifies targers by recomending a target INR of 2.5 (range 2.0-3.0) for all except those with a few specific indications."
                 android:textAlignment="center"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:textColor="@android:color/black"
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
@@ -246,6 +256,8 @@
                 android:text="Target INR 2.0 to 3.0"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -259,6 +271,8 @@
                 android:text="Target INR 2.5 to 3.5"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -272,9 +286,23 @@
                 android:text="About the adjustment protocol"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/t1p11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Most recent result is..."
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textColor="@android:color/black"
+                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="228dp" />
 
             <Button
                 android:id="@+id/b1p10"
@@ -285,6 +313,8 @@
                 android:text="INR &lt; 1.5"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -298,6 +328,8 @@
                 android:text="INR 1.5 to 1.9"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -311,6 +343,8 @@
                 android:text="INR 2.0 to 3.0"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -324,6 +358,8 @@
                 android:text="INR 3.1 to 3.9"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -337,6 +373,8 @@
                 android:text="INR 4.1 to 4.9"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -350,6 +388,8 @@
                 android:text="INR >= 5.0"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -363,6 +403,8 @@
                 android:text="INR &lt; 1.5"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -376,6 +418,8 @@
                 android:text="INR 1.5 to 2.4"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -389,6 +433,8 @@
                 android:text="INR 2.5 to 3.5"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -402,6 +448,8 @@
                 android:text="INR 3.6 to 4.5"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -415,6 +463,8 @@
                 android:text="INR 4.6 to 5.9"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -428,6 +478,8 @@
                 android:text="INR >= 6.0"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -441,6 +493,8 @@
                 android:text="INR &lt;= 10, no signif. bleeding"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -454,6 +508,8 @@
                 android:text="INR > 10, no signif. bleeding"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -467,6 +523,8 @@
                 android:text="Major bleeding, any INR"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -480,6 +538,8 @@
                 android:text="INR &lt;= 10, no signif. bleeding"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -493,6 +553,8 @@
                 android:text="INR > 10, no signif. bleeding"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -506,6 +568,8 @@
                 android:text="Major bleeding, any INR"
                 android:textAlignment="center"
                 android:textSize="25sp"
+                android:backgroundTint="@android:color/white"
+                android:textColor="#157EFB"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -586,7 +650,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/initiate"
-                android:textSize="20sp"
+                android:textSize="25sp"
                 android:textColor="@android:color/black"
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
@@ -620,19 +684,6 @@
                 android:layout_height="match_parent"
                 android:text="@string/about_protocol"
                 android:textSize="20sp"
-                android:textColor="@android:color/black"
-                android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="228dp" />
-
-
-            <TextView
-                android:id="@+id/t1p11"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Most recent result is..."
-                android:textAlignment="center"
-                android:textSize="25sp"
                 android:textColor="@android:color/black"
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
                 tools:layout_editor_absoluteX="0dp"
