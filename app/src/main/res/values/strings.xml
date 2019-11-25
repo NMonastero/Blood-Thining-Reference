@@ -63,7 +63,7 @@
         It contains guidance on indications, INR targets, treatment duration, initiation, and adjustment protocols.</string>
     <string name="periop_mgmt">The management of Warfarin before, during, and after surgery depends greatly on
         the type of surgery and the risk of a thromboembolic event were anticoagulation to be suspended temporarily.\n
-        For detailed guidance on this topic, please see our free app in the iTunes App Store, &quot;Preop Eval &apos;14&quot;.</string>
+        \nFor detailed guidance on this topic, please see our free app in the iTunes App Store, &quot;Preop Eval &apos;14&quot;.</string>
     <string name="afib_flutter">Acute A-Fib/Flutter ≥ 48 hrs or unknown duration and cardioversion planned:
         \n- target 2.0-3.0
         \n- duration 3 wks before cardioversion
@@ -314,4 +314,12 @@
         interventional than previous but also less clear.  E.g. for elevated INR without bleeding we are
         told what action should not be taken (no Vit K), but are not told what action should be taken.
         For familiarity and clarity, new recommendations will be presented along with the old.</string>
+    <string name="popup">This app presents the Point-of-Care Guides on the use of Warfarin (Coumadin) from
+        the family medicine literature, updated for the 2008 &amp; 2012 ACCP guidelines on antithrombotic
+        therapy. It contains guidance on indications, INR targets, treatment duration, initiation, and adjustment protocols.</string>
+    <string name="about_app">Development of Warfarin Guide\n\nWritten to put useful protocols on Warfarin adjustment,
+        indications, targets, and therapy durations in the hands of physicians, pharmacists, nurses, students, and
+        residents at the point of care.\n\nContent + Design: Joshua Steinberg MD, UHS Wilson Family Practice Residency,
+        Binghamton NY\n\nProgrammers:\nWilliam Keller, Binghamton University, Binghamton NY\nNicholas Monastero, Binghamton
+        University, Binghamton NY\n\nFeedback: jds.pocapps@gmail.com\nPlatform:\nVersion:\nCopyright:</string>
 </resources>

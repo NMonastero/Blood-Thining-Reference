@@ -1,5 +1,7 @@
 package com.example.fragmentfun;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -36,18 +38,20 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navView, navController);
 
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-//        b = findViewById(R.id.test_button);
-//        b.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(MainActivity.this, HomeFragment.class));
-//                b.setEnabled(false);
-//                b.setVisibility(View.GONE);
-//            }
-//        });
+
+        AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+        //alertDialog.setTitle("Alert");
+        alertDialog.setMessage(getString(R.string.popup));
+        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "Get Started",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+        alertDialog.show();
+
 
     }
-    //@Override
 
 
 }

@@ -660,7 +660,7 @@
                 android:id="@+id/t1p4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="FIX LATER"
+                android:text="@string/periop_mgmt"
                 android:textColor="@android:color/black"
                 android:textSize="20sp"
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
