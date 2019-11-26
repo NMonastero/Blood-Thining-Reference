@@ -768,7 +768,7 @@
                 android:id="@+id/t1p20"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Result of INR is 1.5 to 2.4;
+                android:text="Result of INR is 1.5 to 2.4:
                 \nIncrease total weekly dose by 5% to 10%, consider extra dose\n
                 \nNext INR:
                 \n7 to 14 days\n
