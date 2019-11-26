@@ -1,6 +1,7 @@
 package com.example.fragmentfun.ui.home;
 
 import android.os.Bundle;
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -485,6 +486,7 @@ public class HomeFragment extends Fragment {
         }
         else if(i == 4){
             t1p4.setVisibility(View.VISIBLE);
+            t1p4.setMovementMethod(LinkMovementMethod.getInstance());
         }
         else if(i == 5){
             t1p5.setVisibility(View.VISIBLE);

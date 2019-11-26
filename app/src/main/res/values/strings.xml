@@ -61,9 +61,9 @@
     <string name="alert">This app presents the Point-of-Care Guides on the use of Warfarin (Coumadin) from the
         family medicine literature, updated for the 2008 and 2012 ACCP guidelines on antithrombotic therapy.
         It contains guidance on indications, INR targets, treatment duration, initiation, and adjustment protocols.</string>
-    <string name="periop_mgmt">The management of Warfarin before, during, and after surgery depends greatly on
-        the type of surgery and the risk of a thromboembolic event were anticoagulation to be suspended temporarily.\n
-        \nFor detailed guidance on this topic, please see our free app in the iTunes App Store, &quot;Preop Eval &apos;14&quot;.</string>
+    <string name="periop_mgmt"><a href="http://www.preopevaluation.com">The management of Warfarin before, during, and after surgery depends greatly on
+        the type of surgery and the risk of a thromboembolic event were anticoagulation to be suspended temporarily.
+        \n\nFor detailed guidance on this topic, please click here!</a></string>
     <string name="afib_flutter">Acute A-Fib/Flutter ≥ 48 hrs or unknown duration and cardioversion planned:
         \n- target 2.0-3.0
         \n- duration 3 wks before cardioversion
