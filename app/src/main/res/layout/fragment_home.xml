@@ -42,7 +42,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="0dp"
-                android:text="Back"
+                android:text="@string/back"
                 android:textAlignment="center"
                 android:textSize="25sp"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="0dp"
-                android:text="Choose a Warfarin resource you would like to review"
+                android:text="@string/choose"
                 android:textAlignment="center"
                 android:textSize="25sp"
                 android:textColor="@android:color/black"
@@ -71,7 +71,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="0dp"
-                android:text="Indications, Targets, Duration"
+                android:text="@string/indications_targets_duration"
                 android:textAlignment="center"
                 android:textSize="25sp"
                 android:backgroundTint="@android:color/white"
@@ -88,7 +88,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="0dp"
-                android:text="Initiate Warfarin"
+                android:text="@string/initiate_warfarin"
                 android:textAlignment="center"
                 android:textSize="25sp"
                 android:backgroundTint="@android:color/white"
@@ -105,7 +105,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="0dp"
-                android:text="Adjust Warfarin"
+                android:text="@string/adjust_warfarin"
                 android:textAlignment="center"
                 android:textSize="25sp"
                 android:backgroundTint="@android:color/white"
@@ -122,7 +122,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="0dp"
-                android:text="Warfarin Perioperative Mgmt"
+                android:text="@string/warfarin_periop_mgmt"
                 android:textAlignment="center"
                 android:textSize="25sp"
                 android:backgroundTint="@android:color/white"
@@ -138,7 +138,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
                 android:layout_marginBottom="0dp"
-                android:text="Review the INR target and duration of Warfarin therapy according to medical indication grouped in these categories:"
+                android:text="@string/review"
                 android:textAlignment="center"
                 android:textSize="20sp"
                 android:textColor="@android:color/black"
@@ -154,7 +154,7 @@
                 android:layout_marginTop="0dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="0dp"
-                android:text="DVT or PE"
+                android:text="@string/dvt_pe"
                 android:textAlignment="center"
                 android:textSize="25sp"
                 android:backgroundTint="@android:color/white"
@@ -535,7 +535,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="8dp"
-                android:text="INR ≤= 10, no signif. bleeding"
+                android:text="INR ≤ 10, no signif. bleeding"
                 android:textAlignment="center"
                 android:textSize="25sp"
                 android:backgroundTint="@android:color/white"
@@ -661,6 +661,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/periop_mgmt"
+                android:autoLink="web"
                 android:textColor="@android:color/black"
                 android:textSize="20sp"
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
@@ -693,11 +694,7 @@
                 android:id="@+id/t1p13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Result of INR is &lt; 1.5*
-                \nIncrease total weekly dose by 10% to 20%, consider extra dose\n
-                \nNext INR:
-                \n4 to 8 days\n
-                \n*before you change dose, assess patient compliance -- maybe does is correct but patient isn't taking it"
+                android:text="@string/t1p13"
                 android:textSize="25sp"
                 android:textColor="@android:color/black"
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
@@ -707,13 +704,7 @@
                 android:id="@+id/t1p14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Result of INR is 1.5 to 1.9* ** ***;
-                \nIncrease total weekly dose by 5% to 10%, consider extra dose\n
-                \nNext INR:
-                \n7 to 14 days\n
-                \n*if INR 1.8 to 1.9, consider no change with repeat INR in 7-14 days
-                \n**ACCP 2012 adds that for single out of range INR &lt;= 0.5 below or above therapeutic and previously stable therapeutic INR results, consider no change with repeat INR in 7-14 days
-                \n***before you change dose, assess patient compliance -- maybe does is correct but patient isn't taking it"
+                android:text="@string/t1p14"
                 android:textSize="25sp"
                 android:textColor="@android:color/black"
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
@@ -723,12 +714,7 @@
                 android:id="@+id/t1p15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Result of INR is 2.0 to 3.0;
-                \nNo Change\n
-                \nNext INR: *
-                \n# of consecutive in-range INR's x 1 week, max interval q4 weeks**\n
-                \n*example: if patient has 3 consecutive INR's therapeutic, then recheck next INR in 3 weeks
-                \n**ACCP 2012 adds that patients with consistently stable INR's can have testing intervals as large as 12 weeks"
+                android:text="@string/t1p15"
                 android:textSize="25sp"
                 android:textColor="@android:color/black"
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
@@ -738,12 +724,7 @@
                 android:id="@+id/t1p16"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Result of INR is 3.1 to 3.9* **;
-                \nDecrease total weekly dose by 5% to 10%\n
-                \nNext INR:
-                \n7 to 14 days\n
-                \n*if INR 3.1 to 3.2, consider no change with repeat INR in 7-14 days
-                \n**ACCP 2012 adds that for single out of range INR &lt;= 0.5 below or above therapeutic and previously stable therapeutic INR results, consider no change with repeat INR"
+                android:text="@string/t1p16"
                 android:textSize="25sp"
                 android:textColor="@android:color/black"
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
@@ -754,10 +735,7 @@
                 android:id="@+id/t1p17"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Result of INR is 4.0 to 4.9;
-                \nOption to hold dose for 1 day, then decrease total weekly dose by 10%\n
-                \nNext INR:
-                \n4 to 8 days"
+                android:text="@string/t1p17"
                 android:textSize="25sp"
                 android:textColor="@android:color/black"
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
@@ -774,7 +752,7 @@
                 \n7 to 14 days\n
                 \n*if INR 2.3 to 2.4, consider no change with repeat INR in 7-14 days
                 \n**ACCP 2012 adds that for single out of range INR &lt;= 0.5 below or above therapeutic and previously stable therapeutic INR results, consider no change with repeat INR in 7-14 days
-                \n***before you change dose, assess patient compliance -- maybe does is correct but patient isn't taking it"
+                \n***before you change dose, assess patient compliance -- maybe dose is correct but patient isn't taking it"
                 android:textSize="25sp"
                 android:textColor="@android:color/black"
                 android:layout_marginHorizontal="@dimen/activity_horizontal_margin"

@@ -61,9 +61,9 @@
     <string name="alert">This app presents the Point-of-Care Guides on the use of Warfarin (Coumadin) from the
         family medicine literature, updated for the 2008 and 2012 ACCP guidelines on antithrombotic therapy.
         It contains guidance on indications, INR targets, treatment duration, initiation, and adjustment protocols.</string>
-    <string name="periop_mgmt"><a href="http://www.preopevaluation.com">The management of Warfarin before, during, and after surgery depends greatly on
+    <string name="periop_mgmt">The management of Warfarin before, during, and after surgery depends greatly on
         the type of surgery and the risk of a thromboembolic event were anticoagulation to be suspended temporarily.
-        \n\nFor detailed guidance on this topic, please click here!</a></string>
+        \n\nFor detailed guidance on this topic, please visit http://www.preopevaluation.com</string>
     <string name="afib_flutter">Acute A-Fib/Flutter ≥ 48 hrs or unknown duration and cardioversion planned:
         \n- target 2.0-3.0
         \n- duration 3 wks before cardioversion
@@ -244,7 +244,7 @@
         who receive drug-eluting stent (DES)
         \n- target 2.0-3.0 plus low-dose aspirin and clopidogrel 75 mg/day
         \n- duration 3-6 months
-        \n- dual antiplatelet therapy alone thru 12 months
+        \n- dual antiplatelet therapy alone through 12 months
         \n- standard antiplatelet therapy after 12 months
         \n\nSystolic LV dysfunction with acute LV thrombus but without established CAD
         \n- target 2.0-3.0
@@ -321,5 +321,41 @@
         indications, targets, and therapy durations in the hands of physicians, pharmacists, nurses, students, and
         residents at the point of care.\n\n<b>Content + Design:</b> \n  Joshua Steinberg MD, UHS Wilson Family Practice Residency,
         Binghamton NY\n\n<b>Programmers:</b>\n  William Keller, Nicholas Monastero, \n  Binghamton
-        University, Binghamton NY\n\n<b>Additional Guidance and Wisdom:</b> \n\tJohn Madden\n\n<b>Feedback:</b> jds.pocapps@gmail.com\n<b>Released:</b> December 2019\n<b>Version:</b> 1.0\n</string>
+        University, Binghamton NY\n\n<b>Additional Guidance and Wisdom:</b> \n\tPatrick Madden\n\n<b>Feedback:</b> jds.pocapps@gmail.com\n<b>Released:</b> December 2019\n<b>Version:</b> 1.0\n</string>
+    <string name="back">Back</string>
+    <string name="choose">Choose a Warfarin resource you would like to review</string>
+    <string name="indications_targets_duration">Indications, Targets, Duration</string>
+    <string name="initiate_warfarin">Initiate Warfarin</string>
+    <string name="adjust_warfarin">Adjust Warfarin</string>
+    <string name="warfarin_periop_mgmt">Warfarin Perioperative Mgmt</string>
+    <string name="review">Review the INR target and duration of Warfarin therapy according to medical indication grouped in these categories:</string>
+    <string name="dvt_pe">DVT or PE</string>
+    <string name="t1p13"><b>Result of INR is &lt; 1.5</b>*
+        \nIncrease total weekly dose by 10% to 20%, consider extra dose\n
+        \n<b>Next INR:</b>
+        \n4 to 8 days\n
+        \n* before you change dose, assess patient compliance &#8212; maybe dose is correct but patient isn\'t taking it</string>
+    <string name="t1p14"><b>Result of INR is 1.5 to 1.9</b>* ** ***
+        \nIncrease total weekly dose by 5% to 10%, consider extra dose\n
+        \n<b>Next INR:</b>
+        \n7 to 14 days\n
+        \n* if INR 1.8 to 1.9, consider no change with repeat INR in 7-14 days
+        \n** ACCP 2012 adds that for single out of range INR &lt;= 0.5 below or above therapeutic and previously stable therapeutic INR results, consider no change with repeat INR in 7-14 days
+        \n*** before you change dose, assess patient compliance &#8212; maybe dose is correct but patient isn\'t taking it</string>
+    <string name="t1p15"><b>Result of INR is 2.0 to 3.0</b>
+        \nNo Change\n
+        \n<b>Next INR:</b> *
+        \n # of consecutive in-range INR\'s x 1 week, max interval q4 weeks**\n
+        \n *example: if patient has 3 consecutive INR\'s therapeutic, then recheck next INR in 3 weeks
+        \n **ACCP 2012 adds that patients with consistently stable INR\'s can have testing intervals as large as 12 weeks</string>
+    <string name="t1p16"><b>Result of INR is 3.1 to 3.9</b>* **
+        \nDecrease total weekly dose by 5% to 10%\n
+        \n<b>Next INR:</b>
+        \n7 to 14 days\n
+        \n* if INR 3.1 to 3.2, consider no change with repeat INR in 7-14 days
+        \n** ACCP 2012 adds that for single out of range INR &lt;= 0.5 below or above therapeutic and previously stable therapeutic INR results, consider no change with repeat INR</string>
+    <string name="t1p17"><b>Result of INR is 4.0 to 4.9</b>
+        \nOption to hold dose for 1 day, then decrease total weekly dose by 10%\n
+        \n<b>Next INR:</b>
+        \n4 to 8 days</string>
 </resources>
