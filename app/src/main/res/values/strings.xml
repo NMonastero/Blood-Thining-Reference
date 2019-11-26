@@ -317,9 +317,9 @@
     <string name="popup">This app presents the Point-of-Care Guides on the use of Warfarin (Coumadin) from
         the family medicine literature, updated for the 2008 &amp; 2012 ACCP guidelines on antithrombotic
         therapy. It contains guidance on indications, INR targets, treatment duration, initiation, and adjustment protocols.</string>
-    <string name="about_app">Development of Warfarin Guide\n\nWritten to put useful protocols on Warfarin adjustment,
+    <string name="about_app"><b>Development of Warfarin Guide</b>\n\nWritten to put useful protocols on Warfarin adjustment,
         indications, targets, and therapy durations in the hands of physicians, pharmacists, nurses, students, and
-        residents at the point of care.\n\nContent + Design: Joshua Steinberg MD, UHS Wilson Family Practice Residency,
-        Binghamton NY\n\nProgrammers:\nWilliam Keller, Binghamton University, Binghamton NY\nNicholas Monastero, Binghamton
-        University, Binghamton NY\n\nFeedback: jds.pocapps@gmail.com\nPlatform:\nVersion:\nCopyright:</string>
+        residents at the point of care.\n\n<b>Content + Design:</b> \n  Joshua Steinberg MD, UHS Wilson Family Practice Residency,
+        Binghamton NY\n\n<b>Programmers:</b>\n  William Keller, Nicholas Monastero, \n  Binghamton
+        University, Binghamton NY\n\n<b>Additional Guidance and Wisdom:</b> \n\tJohn Madden\n\n<b>Feedback:</b> jds.pocapps@gmail.com\n<b>Released:</b> December 2019\n<b>Version:</b> 1.0\n</string>
 </resources>
