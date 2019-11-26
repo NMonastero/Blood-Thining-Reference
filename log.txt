@@ -1,0 +1,622 @@
+commit 6e1cd34f0145b0481b0310d67ea0a69f380c541f
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Mon Nov 25 09:56:48 2019 -0500
+
+    Added screenshots
+
+ Screenshot_1574693655.png | Bin 0 -> 92618 bytes
+ Screenshot_1574693702.png | Bin 0 -> 189426 bytes
+ Screenshot_1574693724.png | Bin 0 -> 299663 bytes
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit db8049eaf87e371df4c2b13084ad80c93e16da49
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Mon Nov 25 09:55:37 2019 -0500
+
+    Update README.md
+
+ README.md | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+commit 280d68349a89d1cb9e69bfea694f59375e2f9625
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Mon Nov 25 09:46:15 2019 -0500
+
+    Added better <= symbols
+
+ app/src/main/res/layout/fragment_home.xml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 44b94d5542036892149cdd569010e13f4279b907
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Mon Nov 25 09:43:56 2019 -0500
+
+    Added better >= symbols
+
+ app/src/main/res/layout/fragment_home.xml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 1a749f4d8fd2113912bb0f970347df7c2ee8a1d3
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Mon Nov 25 09:42:02 2019 -0500
+
+    Update fragment_home.xml
+
+ app/src/main/res/layout/fragment_home.xml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 051e2f3021f027fc5be76647bf4968c1b04378bc
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Sun Nov 24 22:02:37 2019 -0500
+
+    Updated About page and periop mgmt
+
+ .../java/com/example/fragmentfun/MainActivity.java | 24 +++++++++++++---------
+ app/src/main/res/layout/fragment_home.xml          |  2 +-
+ app/src/main/res/layout/fragment_notifications.xml | 19 +++++++++++++++++
+ app/src/main/res/values/strings.xml                | 10 ++++++++-
+ 4 files changed, 43 insertions(+), 12 deletions(-)
+
+commit b518511356db25377e3d1773bef33483a5d161a9
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Sun Nov 24 13:42:40 2019 -0500
+
+    Added newline to string
+
+ app/src/main/res/values/strings.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit da194e7a57ba7e5c2594f3e8400258bd5730ace1
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Sun Nov 24 13:32:09 2019 -0500
+
+    Fixed formatting issue
+
+ app/src/main/res/layout/fragment_home.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit df01b60acaa2d4dc1ec436b8e33d40c5681932e5
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Sun Nov 24 13:22:14 2019 -0500
+
+    Almost finished. Just need to fix a few things.
+
+ .../main/res/drawable/ic_dashboard_black_24dp.xml    | 10 +++++-----
+ app/src/main/res/layout/fragment_dashboard.xml       | 20 ++++++++++++++++++++
+ app/src/main/res/layout/fragment_disclaimer.xml      |  2 +-
+ app/src/main/res/layout/fragment_home.xml            |  2 +-
+ app/src/main/res/layout/fragment_notifications.xml   |  1 +
+ app/src/main/res/values/strings.xml                  | 10 +++++-----
+ 6 files changed, 33 insertions(+), 12 deletions(-)
+
+commit 8f8329efe8bbed0bfa2b0dcac577e6fe197a3627
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Sun Nov 24 12:41:38 2019 -0500
+
+    Changed color scheme of everything
+
+ app/src/main/res/layout/fragment_dashboard.xml     |  1 +
+ app/src/main/res/layout/fragment_disclaimer.xml    | 18 +++--
+ app/src/main/res/layout/fragment_home.xml          | 83 +++++++++++++++++-----
+ app/src/main/res/layout/fragment_notifications.xml |  1 +
+ 4 files changed, 80 insertions(+), 23 deletions(-)
+
+commit 4d7ef8371bedf054f4eb51bbd3273a50d3b3cf19
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Sun Nov 24 12:28:55 2019 -0500
+
+    Fixed margins. In process of changing color scheme. Fixed some text issues.
+
+ .../ui/dashboard/DashboardViewModel.java           |   2 +-
+ .../ui/notifications/NotificationsViewModel.java   |   2 +-
+ .../main/res/drawable/ic_dashboard_black_24dp.xml  |   2 +-
+ .../main/res/drawable/ic_disclaimer_black_24dp.xml |   2 +-
+ app/src/main/res/drawable/ic_home_black_24dp.xml   |   2 +-
+ .../res/drawable/ic_notifications_black_24dp.xml   |   2 +-
+ app/src/main/res/layout/activity_main.xml          |   2 +-
+ app/src/main/res/layout/fragment_home.xml          | 186 ++++++++++++++-------
+ app/src/main/res/values/colors.xml                 |   4 +-
+ app/src/main/res/values/strings.xml                |  16 +-
+ 10 files changed, 139 insertions(+), 81 deletions(-)
+
+commit 1b9d89a80b11b7b61f0e2b58747c2ade2ac6a075
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Fri Nov 22 17:05:34 2019 -0500
+
+    Final informational text added
+
+ .../example/fragmentfun/ui/home/HomeFragment.java  | 116 +++++++++++---
+ app/src/main/res/layout/fragment_home.xml          | 167 +++++++++++++++++++--
+ 2 files changed, 256 insertions(+), 27 deletions(-)
+
+commit f8fa756e598f6b6a5ffdf09f04666e06ba8300c6
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Fri Nov 22 12:40:20 2019 -0500
+
+    Fixed Some formatting issues
+
+ .../example/fragmentfun/ui/home/HomeFragment.java  |    7 -
+ app/src/main/res/layout/fragment_home.xml          | 1175 ++++++++++----------
+ 2 files changed, 570 insertions(+), 612 deletions(-)
+
+commit 98940760e667015fc2259905c12584fb664dd40b
+Merge: 994406f 9d6a9eb
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Fri Nov 22 10:45:53 2019 -0500
+
+    Merge branch 'master' of https://github.com/NMonastero/Fragment-Fun
+
+commit 994406fd9129f37c458ed20b8e405aa8707781ce
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Fri Nov 22 10:45:44 2019 -0500
+
+    Update fragment_home.xml
+
+ app/src/main/res/layout/fragment_home.xml | 3 ---
+ 1 file changed, 3 deletions(-)
+
+commit 9d6a9ebe1b52f19feb186cee3c08f2af2ae5c91d
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Fri Nov 22 10:45:26 2019 -0500
+
+    updated
+
+ app/src/main/res/layout/fragment_home.xml | 3 ---
+ 1 file changed, 3 deletions(-)
+
+commit ca26b12ba769d46e0efba05f494aaf8bdcb97dd9
+Merge: aa11fe6 a07b953
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Fri Nov 22 10:43:24 2019 -0500
+
+    updated
+
+commit aa11fe68ad2ef4a574f63eb1a5414a7f8f9b3c54
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Fri Nov 22 10:43:00 2019 -0500
+
+    formatting
+
+ app/src/main/res/layout/fragment_home.xml | 87 ++++++++++++++++++++-----------
+ 1 file changed, 56 insertions(+), 31 deletions(-)
+
+commit a07b95345ef900a17e5612808eca5dbd447d0a05
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Fri Nov 22 10:42:33 2019 -0500
+
+    adding more text
+
+ .../java/com/example/fragmentfun/ui/home/HomeFragment.java     |  8 +++++++-
+ app/src/main/res/layout/fragment_home.xml                      | 10 ++++++++++
+ 2 files changed, 17 insertions(+), 1 deletion(-)
+
+commit 3e7d61a00a252126d4b83d43193ce69e24a7cc17
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Fri Nov 22 10:23:29 2019 -0500
+
+    Update HomeFragment.java
+
+ .../java/com/example/fragmentfun/ui/home/HomeFragment.java     | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit 1b800a1f21b4c7c1104474b096c34f0bf5c41140
+Merge: d452437 724fb40
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Fri Nov 22 10:21:29 2019 -0500
+
+    Merge branch 'master' of https://github.com/NMonastero/Fragment-Fun
+
+commit d452437dfccd5d1e199a9d75f9086c8bcaa0102e
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Fri Nov 22 10:19:22 2019 -0500
+
+    adding text
+
+ .../example/fragmentfun/ui/home/HomeFragment.java  | 34 +++++++++++--
+ app/src/main/res/layout/fragment_home.xml          | 56 +++++++++++++++++++++-
+ 2 files changed, 84 insertions(+), 6 deletions(-)
+
+commit 724fb406db169cfe8d8fa4fc77ed111093c91d8d
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Fri Nov 22 10:19:04 2019 -0500
+
+    fixed scrollview
+
+ app/src/main/res/layout/fragment_home.xml | 26 +++++++++++++++-----------
+ 1 file changed, 15 insertions(+), 11 deletions(-)
+
+commit add1e9dcf253915ddf81b108823fc7c3b27d69ab
+Merge: be51df8 f9e90ae
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Fri Nov 22 09:54:24 2019 -0500
+
+    Merge branch 'master' of https://github.com/NMonastero/Blood-Thining-Reference
+
+commit be51df8d255c42331195097eb32099b6e90b9b31
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Fri Nov 22 09:54:16 2019 -0500
+
+    updated
+
+ .idea/render.experimental.xml       | 6 ++++++
+ app/src/main/res/values/strings.xml | 2 +-
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+
+commit f9e90aeed5597058e0c004750eeabea4b751ef49
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Fri Nov 22 09:38:47 2019 -0500
+
+    Update strings.xml
+
+ app/src/main/res/values/strings.xml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 11c88781ae47579f5dcef1af50b4ccfb9511cdde
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Wed Nov 20 10:44:35 2019 -0500
+
+    Minor string update
+
+ app/src/main/res/values/strings.xml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c2d8d01a655af433af9ab4c179ea9524f50e189d
+Merge: 98ab367 807e937
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Wed Nov 20 10:37:27 2019 -0500
+
+    Merge branch 'master' of https://github.com/NMonastero/Fragment-Fun
+
+commit 98ab367f7c294dfb30769bdc1fbda48bab97d240
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Wed Nov 20 10:37:23 2019 -0500
+
+    Getting scroll view to work
+
+ .../example/fragmentfun/ui/home/HomeFragment.java  |   98 +-
+ .../example/fragmentfun/ui/home/HomeViewModel.java |   15 -
+ app/src/main/res/layout/fragment_home.xml          | 1036 ++++++++++----------
+ 3 files changed, 563 insertions(+), 586 deletions(-)
+
+commit 807e9377c207a4fb337a4884cac2d4f3c4b55a8a
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Wed Nov 20 10:01:31 2019 -0500
+
+    updated strings
+
+ app/src/main/res/values/strings.xml | 16 +++++++++++++++-
+ 1 file changed, 15 insertions(+), 1 deletion(-)
+
+commit 45d40447554dbe400f465ea044eb8aad3a91f035
+Merge: 7fc50aa e4adbdf
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Wed Nov 20 09:51:39 2019 -0500
+
+    Merge branch 'master' of https://github.com/NMonastero/Fragment-Fun
+
+commit e4adbdf7804213018b782942353cf6cc8d7fc417
+Merge: 1cc80c4 f3e18dc
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Wed Nov 20 09:51:04 2019 -0500
+
+    Merge branch 'master' of https://github.com/NMonastero/Blood-Thining-Reference
+
+commit 1cc80c4d0f6040211dc08418a5c23303e5c9cf76
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Wed Nov 20 09:50:56 2019 -0500
+
+    Updated strings
+
+ app/src/main/res/values/strings.xml | 45 ++++++++++++++++++++++++++++---------
+ 1 file changed, 34 insertions(+), 11 deletions(-)
+
+commit 7fc50aaf71c15f8cbf15969389ca9ff0bee27308
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Wed Nov 20 09:50:34 2019 -0500
+
+    Adding textviews
+
+ app/src/main/res/layout/fragment_home.xml | 52 +++++++++++++++++++++++++++++++
+ 1 file changed, 52 insertions(+)
+
+commit f3e18dc2ba2b59d7ed593f68d6227c4ce63751d6
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Wed Nov 20 09:42:54 2019 -0500
+
+    Update styles.xml
+
+ app/src/main/res/values/styles.xml | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+commit 1a77e3f9e90d902485b3ffae6b372fb64e162302
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Wed Nov 20 09:36:04 2019 -0500
+
+    Updated strings
+
+ app/src/main/res/values/strings.xml | 28 ++++++++++++++++++++++++++++
+ 1 file changed, 28 insertions(+)
+
+commit f03eaad74e5cac592caf14cb742342806583ec41
+Merge: f4b972b ff84b3d
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Mon Nov 18 10:47:11 2019 -0500
+
+    Merge branch 'master' of https://github.com/NMonastero/Fragment-Fun
+
+commit f4b972b1cbbb73d5a5911e522215f6030c2727e6
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Mon Nov 18 10:46:55 2019 -0500
+
+    Added final buttons
+    
+    Now we just hvae to add all of the strings
+
+ .../example/fragmentfun/ui/home/HomeFragment.java  | 424 ++++++++++++++++++++-
+ app/src/main/res/layout/fragment_home.xml          | 291 ++++++++++++++
+ 2 files changed, 700 insertions(+), 15 deletions(-)
+
+commit ff84b3dd4c370f8366a34d9e55d670422209a996
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Mon Nov 18 10:39:31 2019 -0500
+
+    Added strings to use on fragments later
+
+ app/src/main/res/values/strings.xml | 237 ++++++++++++++++++++++++++++++++++--
+ 1 file changed, 230 insertions(+), 7 deletions(-)
+
+commit 5f01e3bbbcf64d8aa72bca0280f0aed5fe58ab24
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Sat Nov 16 17:43:40 2019 -0500
+
+    Some String updates
+
+ app/src/main/res/values/strings.xml | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+commit 4f641ef2206eda73608e2fedee09f4c430c50b8a
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Fri Nov 15 10:47:52 2019 -0500
+
+    Added disclaimer text
+
+ .../ui/disclaimer/DisclaimerViewModel.java         |  2 +-
+ app/src/main/res/layout/fragment_disclaimer.xml    | 31 ++++++++--------------
+ app/src/main/res/navigation/mobile_navigation.xml  |  1 -
+ app/src/main/res/values/strings.xml                | 14 ++++++++++
+ 4 files changed, 26 insertions(+), 22 deletions(-)
+
+commit d8925b5d1ad831b66882f912ffda403023d49151
+Merge: 1237ead 1820c29
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Fri Nov 15 10:46:58 2019 -0500
+
+    Merge branch 'master' of https://github.com/NMonastero/Fragment-Fun
+
+commit 1237ead72e9b2c49f15ea9a27879323a5c3fac18
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Fri Nov 15 10:46:54 2019 -0500
+
+    Adding content
+
+ .../example/fragmentfun/ui/home/HomeFragment.java  | 109 ++++++++++++++++++++-
+ app/src/main/res/layout/fragment_home.xml          | 100 +++++++++++++++++--
+ 2 files changed, 198 insertions(+), 11 deletions(-)
+
+commit 1820c2979008549a99229d0197c7534832af7653
+Author: Will Keller <wkeller3@binghamton.edu>
+Date:   Fri Nov 15 09:50:52 2019 -0500
+
+    Updated nav bar icons
+
+ .../main/res/drawable/ic_disclaimer_black_24dp.xml |  4 ++--
+ .../res/drawable/ic_notifications_black_24dp.xml   | 12 +++++-----
+ app/src/main/res/layout/fragment_disclaimer.xml    | 27 ++++++++++++++++++++++
+ app/src/main/res/menu/bottom_nav_menu.xml          | 12 +++++-----
+ 4 files changed, 41 insertions(+), 14 deletions(-)
+
+commit 55bde39d4d64034f08079a4de7af6773c604f6ab
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Fri Nov 15 09:49:33 2019 -0500
+
+    Fixed white rectangle
+    
+    It was padding in the activity_main.xml
+
+ .../java/com/example/fragmentfun/MainActivity.java |  2 +
+ .../example/fragmentfun/ui/home/HomeViewModel.java |  5 ++-
+ app/src/main/res/layout/activity_main.xml          | 44 ++++++++++++++++------
+ app/src/main/res/layout/fragment_home.xml          | 12 +++---
+ 4 files changed, 44 insertions(+), 19 deletions(-)
+
+commit 45b657bf9758f30b18064e912f861ceed5100086
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Wed Nov 13 10:44:43 2019 -0500
+
+    Working on constraints
+
+ .../example/fragmentfun/ui/home/HomeFragment.java  | 120 +++++++++++++++++----
+ .../example/fragmentfun/ui/home/HomeViewModel.java |   2 +-
+ app/src/main/res/layout/activity_main.xml          |   4 +-
+ app/src/main/res/layout/fragment_home.xml          |  18 +++-
+ 4 files changed, 114 insertions(+), 30 deletions(-)
+
+commit 02bb5f8c59161a2debcbb0d4f99c7df96730ff50
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Wed Nov 13 10:03:06 2019 -0500
+
+    Update README 11/13
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 7262631a1742c114bab738a5f42685878193d759
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Wed Nov 13 10:00:02 2019 -0500
+
+    Starting the Plug and Chug
+    
+    Now that the structure is figured out, all we ahve to do is put in the information
+
+ .../example/fragmentfun/ui/home/HomeFragment.java  | 46 ++++++++++--------
+ app/src/main/res/layout/fragment_home.xml          | 56 +++++++++++++++++++---
+ 2 files changed, 75 insertions(+), 27 deletions(-)
+
+commit ec2100adfc66ef2d5eb5b4c08cd4ee79c5e19079
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Tue Nov 12 16:17:30 2019 -0500
+
+    Update README 11/12
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit cd0f16790eb6c6066acb8df606b5aaeec2a3cb47
+Merge: 5faaa75 579ddb0
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Tue Nov 12 16:16:49 2019 -0500
+
+    Merge branch 'master' of https://github.com/NMonastero/Fragment-Fun
+
+commit 5faaa7591227d54dd4328b2363d1e9bbdf9b3aff
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Tue Nov 12 16:16:47 2019 -0500
+
+    Fragment Working
+    
+    Figured out how to change things in a fragment (it has to be within that fragmen's java class and even then it isn't very clear)
+
+ .../java/com/example/fragmentfun/MainActivity.java | 11 +++++---
+ .../example/fragmentfun/ui/home/HomeFragment.java  | 31 +++++++++++++++++-----
+ .../example/fragmentfun/ui/home/HomeViewModel.java | 24 +++++++++++++++++
+ app/src/main/res/layout/fragment_home.xml          |  9 +++++++
+ 4 files changed, 66 insertions(+), 9 deletions(-)
+
+commit 579ddb034ba8da052a115fb54b1d93d7d7a8811f
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Mon Nov 11 10:47:14 2019 -0500
+
+    Update README 11/11
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit c0883089539ad2443cb5047f54b90348e72f5583
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Mon Nov 11 10:46:35 2019 -0500
+
+    Working on Multiple Pages
+    
+    Attempting to create multiple "pages" within a fragment
+
+ .../java/com/example/fragmentfun/MainActivity.java  | 21 +++++++++++++++++++--
+ .../example/fragmentfun/ui/home/HomeFragment.java   | 12 ++++++++++++
+ app/src/main/res/layout/activity_main.xml           |  2 ++
+ 3 files changed, 33 insertions(+), 2 deletions(-)
+
+commit f544f2e3614b476829635dff25773491de748294
+Merge: 2e3b83d f730776
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Fri Nov 8 15:19:44 2019 -0500
+
+    Merge branch 'master' of https://github.com/NMonastero/Fragment-Fun
+
+commit 2e3b83d1a78a606e5cb23c308c988928da602e03
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Fri Nov 8 15:19:42 2019 -0500
+
+    Messing Around With Buttons
+    
+    Waiting for will to finish everything else
+
+ .../main/java/com/example/fragmentfun/MainActivity.java    |  1 +
+ app/src/main/res/layout/fragment_disclaimer.xml            |  1 +
+ app/src/main/res/layout/fragment_home.xml                  | 14 ++++++++++++++
+ 3 files changed, 16 insertions(+)
+
+commit f7307769c9ea4568dab299b1e146fa6223ecd688
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Wed Nov 6 10:38:25 2019 -0500
+
+    Update README 11/6
+
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 087970c2e0487333761efbffadc331af3e6d5232
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Wed Nov 6 10:36:50 2019 -0500
+
+    4th Fragment Added
+    
+    figured out how to add fragments.
+
+ .idea/.name                                        |   1 +
+ .idea/codeStyles/Project.xml                       | 113 ++++++++++++++
+ .idea/misc.xml                                     |   9 ++
+ .idea/modules.xml                                  |   9 ++
+ .idea/navEditor.xml                                |  67 ++++++++
+ .idea/runConfigurations.xml                        |  12 ++
+ .idea/vcs.xml                                      |   6 +
+ app/.gitignore                                     |   1 +
+ app/build.gradle                                   |  33 ++++
+ app/proguard-rules.pro                             |  21 +++
+ .../fragmentfun/ExampleInstrumentedTest.java       |  27 ++++
+ app/src/main/AndroidManifest.xml                   |  23 +++
+ .../java/com/example/fragmentfun/MainActivity.java |  28 ++++
+ .../ui/dashboard/DashboardFragment.java            |  33 ++++
+ .../ui/dashboard/DashboardViewModel.java           |  19 +++
+ .../ui/disclaimer/DisclaimerFragment.java          |  33 ++++
+ .../ui/disclaimer/DisclaimerViewModel.java         |  19 +++
+ .../example/fragmentfun/ui/home/HomeFragment.java  |  33 ++++
+ .../example/fragmentfun/ui/home/HomeViewModel.java |  19 +++
+ .../ui/notifications/NotificationsFragment.java    |  33 ++++
+ .../ui/notifications/NotificationsViewModel.java   |  19 +++
+ .../res/drawable-v24/ic_launcher_foreground.xml    |  34 ++++
+ .../main/res/drawable/ic_dashboard_black_24dp.xml  |   9 ++
+ .../main/res/drawable/ic_disclaimer_black_24dp.xml |   9 ++
+ app/src/main/res/drawable/ic_home_black_24dp.xml   |   9 ++
+ .../main/res/drawable/ic_launcher_background.xml   | 170 ++++++++++++++++++++
+ .../res/drawable/ic_notifications_black_24dp.xml   |   9 ++
+ app/src/main/res/layout/activity_main.xml          |  35 +++++
+ app/src/main/res/layout/fragment_dashboard.xml     |  20 +++
+ app/src/main/res/layout/fragment_disclaimer.xml    |  20 +++
+ app/src/main/res/layout/fragment_home.xml          |  20 +++
+ app/src/main/res/layout/fragment_notifications.xml |  20 +++
+ app/src/main/res/menu/bottom_nav_menu.xml          |  24 +++
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   5 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   5 +
+ app/src/main/res/mipmap-hdpi/ic_launcher.png       | Bin 0 -> 2963 bytes
+ app/src/main/res/mipmap-hdpi/ic_launcher_round.png | Bin 0 -> 4905 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher.png       | Bin 0 -> 2060 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher_round.png | Bin 0 -> 2783 bytes
+ app/src/main/res/mipmap-xhdpi/ic_launcher.png      | Bin 0 -> 4490 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.png    | Bin 0 -> 6895 bytes
+ app/src/main/res/mipmap-xxhdpi/ic_launcher.png     | Bin 0 -> 6387 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.png   | Bin 0 -> 10413 bytes
+ app/src/main/res/mipmap-xxxhdpi/ic_launcher.png    | Bin 0 -> 9128 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.png  | Bin 0 -> 15132 bytes
+ app/src/main/res/navigation/mobile_navigation.xml  |  33 ++++
+ app/src/main/res/values/colors.xml                 |   6 +
+ app/src/main/res/values/dimens.xml                 |   5 +
+ app/src/main/res/values/strings.xml                |   7 +
+ app/src/main/res/values/styles.xml                 |  11 ++
+ .../com/example/fragmentfun/ExampleUnitTest.java   |  17 ++
+ build.gradle                                       |  27 ++++
+ gradle.properties                                  |  20 +++
+ gradle/wrapper/gradle-wrapper.jar                  | Bin 0 -> 54329 bytes
+ gradle/wrapper/gradle-wrapper.properties           |   6 +
+ gradlew                                            | 172 +++++++++++++++++++++
+ gradlew.bat                                        |  84 ++++++++++
+ settings.gradle                                    |   2 +
+ 58 files changed, 1337 insertions(+)
+
+commit 3e5d0263f6fda96c83d331e032a978949f8bcd74
+Author: NMonastero <33333449+NMonastero@users.noreply.github.com>
+Date:   Wed Nov 6 09:44:32 2019 -0500
+
+    Initial commit
+
+ .gitignore | 65 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ README.md  |  2 ++
+ 2 files changed, 67 insertions(+)
