@@ -23,7 +23,7 @@ public class HomeFragment extends Fragment {
             b1p10, b2p10, b3p10, b4p10, b5p10, b6p10, b1p11, b2p11, b3p11, b4p11, b5p11, b6p11,
     b1p18, b2p18, b3p18, b1p24, b2p24, b3p24;
     TextView t1p0, t1p1, t2p1, t1p5, t1p6, t1p7, t1p8, t1p9, t1p2, t1p4, t1p3, t2p3, t1p12, t1p11,
-            t1p13, t1p14, t1p15, t1p16, t1p17, t1p20, t1p21, t1p22, t1p23, t1p25,t1p26,t1p27;
+            t1p13, t1p14, t1p15, t1p16, t1p17, t1p20, t1p21, t1p22, t1p23, t1p25,t1p26,t1p27,elevatedINRHeading,elevatedINRNote;
     int page = 0;
     Stack<Integer> pageLast = new Stack<Integer>();
     private HomeViewModel homeViewModel;
@@ -104,6 +104,8 @@ public class HomeFragment extends Fragment {
         //page 17
         t1p17 = root.findViewById(R.id.t1p17);
         //page 18
+        elevatedINRHeading = root.findViewById(R.id.elevated_inr_heading);
+        elevatedINRNote = root.findViewById(R.id.elevated_inr_note);
         b1p18 = root.findViewById(R.id.b1p18);
         b2p18 = root.findViewById(R.id.b2p18);
         b3p18 = root.findViewById(R.id.b3p18);
@@ -552,12 +554,16 @@ public class HomeFragment extends Fragment {
             t1p17.setVisibility(View.VISIBLE);
         }
         else if(i == 18){
+            elevatedINRHeading.setEnabled(true);
+            elevatedINRHeading.setVisibility(View.VISIBLE);
             b1p18.setEnabled(true);
             b1p18.setVisibility(View.VISIBLE);
             b2p18.setEnabled(true);
             b2p18.setVisibility(View.VISIBLE);
             b3p18.setEnabled(true);
             b3p18.setVisibility(View.VISIBLE);
+            elevatedINRNote.setEnabled(true);
+            elevatedINRNote.setVisibility(View.VISIBLE);
         }
         else if(i == 19){
             t1p13.setVisibility(View.VISIBLE);
@@ -575,13 +581,16 @@ public class HomeFragment extends Fragment {
             t1p23.setVisibility(View.VISIBLE);
         }
         else if(i == 24){
+            elevatedINRHeading.setEnabled(true);
+            elevatedINRHeading.setVisibility(View.VISIBLE);
             b1p24.setEnabled(true);
             b1p24.setVisibility(View.VISIBLE);
             b2p24.setEnabled(true);
             b2p24.setVisibility(View.VISIBLE);
             b3p24.setEnabled(true);
             b3p24.setVisibility(View.VISIBLE);
-
+            elevatedINRNote.setEnabled(true);
+            elevatedINRNote.setVisibility(View.VISIBLE);
         }
         else if(i == 25){
             t1p25.setVisibility(View.VISIBLE);
@@ -682,12 +691,16 @@ public class HomeFragment extends Fragment {
         //page 17
         t1p17.setVisibility(View.GONE);
         //page 18
+        elevatedINRHeading.setEnabled(false);
+        elevatedINRHeading.setVisibility(View.GONE);
         b1p18.setEnabled(false);
         b1p18.setVisibility(View.GONE);
         b2p18.setEnabled(false);
         b2p18.setVisibility(View.GONE);
         b3p18.setEnabled(false);
         b3p18.setVisibility(View.GONE);
+        elevatedINRNote.setEnabled(false);
+        elevatedINRNote.setVisibility(View.GONE);
         //page 19
         t1p13.setVisibility(View.GONE);
         //page 20
