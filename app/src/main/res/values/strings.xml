@@ -386,4 +386,24 @@
     <string name="b4p1">After Major Orthopedic Surgery</string>
     <string name="b5p1">Thrombophilia</string>
     <string name="t2p1">2012 ACCP guideline simplifies targets by recommending a target INR of 2.5 (range 2.0&#8211;3.0) for all except those with a few specific indications.</string>
+    <string name="t1p3">Choose the target INR</string>
+    <string name="b1p3">Target INR 2.0 to 3.0</string>
+    <string name="b2p3">Target INR 2.5 to 3.5</string>
+    <string name="b3p3">About the adjustment protocol</string>
+    <string name="t1p11">Most recent result is&#8230;\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="b1p10">INR &lt; 1.5</string>
+    <string name="b2p10">INR 1.5 to 1.9</string>
+    <string name="b3p10">INR 2.0 to 3.0</string>
+    <string name="b4p10">INR 3.1 to 3.9</string>
+    <string name="b5p10">INR 4.1 to 4.9</string>
+    <string name="b6p10">INR \u2265 5.0</string>
+    <string name="b1p11">INR &lt; 1.5</string>
+    <string name="b2p11">INR 1.5 to 2.4</string>
+    <string name="b3p11">INR 2.5 to 3.5</string>
+    <string name="b4p11">INR 3.6 to 4.5</string>
+    <string name="b5p11">INR 4.6 to 5.9</string>
+    <string name="b6p11">INR \u2265 6.0</string>
+    <string name="b1p18">INR ≤ 10, no signif. bleeding</string>
+    <string name="b2p18">INR > 10, no signif. bleeding</string>
+    <string name="b3p18">Major bleeding, any INR</string>
 </resources>
