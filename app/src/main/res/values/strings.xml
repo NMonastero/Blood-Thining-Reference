@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Fragment Fun</string>
-    <string name="title_home">Home</string>
+    <string name="title_home">Warfarin Guide</string>
     <string name="title_dashboard">References</string>
     <string name="title_notifications">About App</string>
     <string name="title_disclaimer">Disclaimer</string>
@@ -321,7 +321,7 @@
         indications, targets, and therapy durations in the hands of physicians, pharmacists, nurses, students, and
         residents at the point of care.\n\n<b>Content + Design:</b> \n  Joshua Steinberg MD, UHS Wilson Family Practice Residency,
         Binghamton NY\n\n<b>Programmers:</b>\n  William Keller, Nicholas Monastero, \n  Binghamton
-        University, Binghamton NY\n\n<b>Additional Guidance and Wisdom:</b> \n\tPatrick Madden\n\n<b>Feedback:</b> jds.pocapps@gmail.com\n<b>Released:</b> December 2019\n<b>Version:</b> 1.0\n</string>
+        University, Binghamton NY\n\n<b>Additional Guidance and Wisdom:</b> \n\tProfessor Patrick Madden, Binghamton University\n\n<b>Feedback:</b> jds.pocapps@gmail.com\n<b>Released:</b> December 2019\n<b>Version:</b> 1.0\n</string>
     <string name="back">Back</string>
     <string name="choose">Choose a Warfarin resource you would like to review</string>
     <string name="indications_targets_duration">Indications, Targets, Duration</string>
